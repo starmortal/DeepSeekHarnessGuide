@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="520" viewBox="0 0 920 520" font-family="'Noto Serif SC','Source Han Serif SC','Microsoft YaHei',serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4D6BFE"/>
+    </marker>
+  </defs>
+
+  <rect x="6" y="6" width="908" height="508" rx="12" fill="#FDFBF7" stroke="#A9B7F0" stroke-width="2"/>
+
+  <text x="460" y="32" text-anchor="middle" font-size="16" font-weight="bold" fill="#1A1A1A">运行中的 dsh = 一棵插件树（示意）</text>
+  <text x="460" y="50" text-anchor="middle" font-size="11" fill="#4A4A4A">怎么读这张图：从上往下看——先选 Profile，再按顺序叠插件层，最后都跑在 Cordis 内核上</text>
+
+  <!-- 第 1 层：Profile -->
+  <rect x="30" y="62" width="860" height="84" rx="4" fill="#FFFDF5" stroke="#1A1A1A"/>
+  <text x="50" y="84" font-size="12" font-weight="bold" fill="#4D6BFE">① 先选 Profile：一张"套餐单"，它不新增能力，只决定下面叠哪些层</text>
+  <rect x="50" y="94" width="250" height="40" rx="3" fill="#FFEE58" stroke="#1A1A1A"/>
+  <text x="175" y="112" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A1A1A">web</text>
+  <text x="175" y="128" text-anchor="middle" font-size="9" fill="#1A1A1A">基础层 + 浏览器界面</text>
+  <rect x="335" y="94" width="250" height="40" rx="3" fill="#FFEE58" stroke="#1A1A1A"/>
+  <text x="460" y="112" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A1A1A">headless</text>
+  <text x="460" y="128" text-anchor="middle" font-size="9" fill="#1A1A1A">基础层 + 命令行一次跑</text>
+  <rect x="620" y="94" width="250" height="40" rx="3" fill="#FFFFFF" stroke="#4D6BFE" stroke-dasharray="4 3"/>
+  <text x="745" y="112" text-anchor="middle" font-size="12" font-weight="bold" fill="#4D6BFE">自定义 profile</text>
+  <text x="745" y="128" text-anchor="middle" font-size="9" fill="#4A4A4A">照 web 抄一份改，或 --patch 临时加料</text>
+
+  <!-- 箭头 ①→② -->
+  <line x1="460" y1="150" x2="460" y2="178" stroke="#4D6BFE" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="472" y="168" font-size="10" fill="#4D6BFE">这张单子决定：叠哪些层</text>
+
+  <!-- 第 2 层：插件树（三行，从上到下 = 第3层/第2层/第1层） -->
+  <rect x="30" y="182" width="860" height="186" rx="4" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="50" y="204" font-size="12" font-weight="bold" fill="#4D6BFE">② 再按顺序叠插件层（一行是一层，看左侧序号）</text>
+
+  <!-- 第 3 层 覆盖层（放最上） -->
+  <rect x="50" y="214" width="820" height="40" rx="3" fill="#FDFBF7" stroke="#1A1A1A" stroke-dasharray="4 3"/>
+  <text x="70" y="232" font-size="10" font-weight="bold" fill="#1A1A1A">第 3 层 · 覆盖层</text>
+  <text x="70" y="247" font-size="9" fill="#4A4A4A">cordis.patch.yml 与 --patch：按 id 改某一层 / 插入新行</text>
+  <text x="760" y="240" text-anchor="end" font-size="9" fill="#4A4A4A">--dump-config 打印出的每一行都能被它替换</text>
+
+  <!-- 第 2 层 追加层 -->
+  <rect x="50" y="260" width="820" height="40" rx="3" fill="#FDFBF7" stroke="#4D6BFE"/>
+  <text x="70" y="278" font-size="10" font-weight="bold" fill="#1A1A1A">第 2 层 · 追加层</text>
+  <text x="70" y="293" font-size="9" fill="#4A4A4A">web-app / headless / 你装的自定义插件</text>
+  <text x="760" y="290" text-anchor="end" font-size="9" fill="#4A4A4A">给现有 profile 装插件：dsh plugin --profile &lt;名&gt; add &lt;包&gt;</text>
+
+  <!-- 第 1 层 基础层 dsh-base -->
+  <rect x="50" y="306" width="820" height="54" rx="3" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="70" y="324" font-size="10" font-weight="bold" fill="#1A1A1A">第 1 层 · 基础层 dsh-base（每个 profile 的第一层）</text>
+  <rect x="70" y="332" width="86" height="22" rx="3" fill="#FDFBF7" stroke="#4D6BFE"/>
+  <text x="113" y="347" text-anchor="middle" font-size="9" fill="#1A1A1A">llm 模型</text>
+  <rect x="162" y="332" width="86" height="22" rx="3" fill="#FDFBF7" stroke="#4D6BFE"/>
+  <text x="205" y="347" text-anchor="middle" font-size="9" fill="#1A1A1A">session 会话</text>
+  <rect x="254" y="332" width="86" height="22" rx="3" fill="#FDFBF7" stroke="#4D6BFE"/>
+  <text x="297" y="347" text-anchor="middle" font-size="9" fill="#1A1A1A">credentials</text>
+  <rect x="346" y="332" width="86" height="22" rx="3" fill="#FDFBF7" stroke="#4D6BFE"/>
+  <text x="389" y="347" text-anchor="middle" font-size="9" fill="#1A1A1A">tools 工具</text>
+  <rect x="438" y="332" width="86" height="22" rx="3" fill="#FDFBF7" stroke="#4D6BFE"/>
+  <text x="481" y="347" text-anchor="middle" font-size="9" fill="#1A1A1A">sandbox</text>
+  <rect x="530" y="332" width="86" height="22" rx="3" fill="#FDFBF7" stroke="#4D6BFE"/>
+  <text x="573" y="347" text-anchor="middle" font-size="9" fill="#1A1A1A">approval</text>
+  <rect x="622" y="332" width="86" height="22" rx="3" fill="#FDFBF7" stroke="#4D6BFE"/>
+  <text x="665" y="347" text-anchor="middle" font-size="9" fill="#1A1A1A">telemetry</text>
+  <rect x="714" y="332" width="140" height="22" rx="3" fill="#FDFBF7" stroke="#4D6BFE"/>
+  <text x="784" y="347" text-anchor="middle" font-size="9" fill="#1A1A1A">session-persistence…</text>
+
+  <text x="460" y="386" text-anchor="middle" font-size="10" fill="#4A4A4A">叠法说明：先叠第 1 层（dsh-base），再叠第 2 层（追加），最后第 3 层（覆盖）——越后叠的越能覆盖先叠的</text>
+
+  <!-- 箭头 ②→③ -->
+  <line x1="460" y1="396" x2="460" y2="424" stroke="#4D6BFE" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="472" y="414" font-size="10" fill="#4D6BFE">这些层都跑在同一口锅上</text>
+
+  <!-- 第 3 层：Cordis 内核 -->
+  <rect x="30" y="428" width="860" height="58" rx="4" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="460" y="450" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A1A1A">③ Cordis 内核（一口共享的锅：context）</text>
+  <text x="460" y="472" text-anchor="middle" font-size="10" fill="#4A4A4A">服务注入 · 事件总线（session/event、agent/*、tools/*）· 可逆效果</text>
+
+  <text x="460" y="502" text-anchor="middle" font-size="9" fill="#6B7280">（示意，依据官方架构文档：运行中的 dsh 是启动时从有序层组合的插件树）</text>
+</svg>

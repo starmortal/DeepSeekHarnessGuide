@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="520" viewBox="0 0 920 520" font-family="'Noto Serif SC','Source Han Serif SC','Microsoft YaHei',serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1A1A1A"/>
+    </marker>
+  </defs>
+
+  <rect x="6" y="6" width="908" height="508" rx="12" fill="#FDFBF7" stroke="#A9B7F0" stroke-width="2"/>
+  <text x="460" y="34" text-anchor="middle" font-size="16" font-weight="bold" fill="#1A1A1A">模型即配置：dsh 只认"OpenAI 兼容端点"（示意）</text>
+  <text x="460" y="52" text-anchor="middle" font-size="11" fill="#4A4A4A">换模型 = 换一段提供方配置，不用改 dsh 本身；两个方向都走同一个 llm-pi-ai 适配器</text>
+
+  <!-- dsh -->
+  <rect x="310" y="80" width="300" height="80" rx="6" fill="#FFFFFF" stroke="#4D6BFE" stroke-width="2"/>
+  <rect x="310" y="80" width="300" height="26" rx="6" fill="#FFEE58"/>
+  <text x="460" y="97" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A1A1A">dsh（你的 Agent 会话）</text>
+  <text x="460" y="128" text-anchor="middle" font-size="10" fill="#1A1A1A">只负责跑循环：计划 → 调工具 → 看结果</text>
+  <text x="460" y="146" text-anchor="middle" font-size="9" fill="#4A4A4A">不关心背后是哪个模型服务</text>
+
+  <!-- 适配器 -->
+  <line x1="460" y1="160" x2="460" y2="198" stroke="#1A1A1A" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="330" y="202" width="260" height="74" rx="6" fill="#FFFFFF" stroke="#E6A817" stroke-width="2"/>
+  <rect x="330" y="202" width="260" height="24" rx="6" fill="#E6A817"/>
+  <text x="460" y="218" text-anchor="middle" font-size="11" font-weight="bold" fill="#FFFFFF">llm-pi-ai（模型路由插件）</text>
+  <text x="460" y="248" text-anchor="middle" font-size="9" fill="#1A1A1A">按 Provider 配置决定发往哪个 baseURL</text>
+  <text x="460" y="264" text-anchor="middle" font-size="9" fill="#4A4A4A">协议统一走 openai-completions</text>
+
+  <!-- 两条线到端点 -->
+  <line x1="400" y1="276" x2="270" y2="322" stroke="#1A1A1A" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="520" y1="276" x2="650" y2="322" stroke="#1A1A1A" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- 端点1 官方 API -->
+  <rect x="120" y="326" width="300" height="120" rx="6" fill="#FFFFFF" stroke="#4D6BFE" stroke-width="2"/>
+  <text x="270" y="352" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A1A1A">DeepSeek 官方 API</text>
+  <text x="270" y="372" text-anchor="middle" font-size="9" fill="#4A4A4A">api.deepseek.com 按量计费</text>
+  <text x="270" y="392" text-anchor="middle" font-size="9" fill="#4A4A4A">flash / pro / vision-exp</text>
+  <text x="270" y="412" text-anchor="middle" font-size="9" fill="#8A8A8A">默认场景：要省心、要最强效果</text>
+
+  <!-- 端点2 本地模型 -->
+  <rect x="500" y="326" width="300" height="120" rx="6" fill="#FFFFFF" stroke="#E6A817" stroke-width="2"/>
+  <rect x="500" y="326" width="300" height="22" rx="6" fill="#FFF8E1"/>
+  <text x="650" y="352" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A1A1A">LM Studio 本地模型</text>
+  <text x="650" y="372" text-anchor="middle" font-size="9" fill="#4A4A4A">localhost:1234/v1 离线免费</text>
+  <text x="650" y="392" text-anchor="middle" font-size="9" fill="#4A4A4A">qwen3 等开源模型，数据不出本机</text>
+  <text x="650" y="412" text-anchor="middle" font-size="9" fill="#8A8A8A">适合：测试、学习、隐私敏感</text>
+
+  <!-- 底部说明 -->
+  <rect x="60" y="462" width="800" height="34" rx="6" fill="#F0F4FF" stroke="#A9B7F0" stroke-width="1.5"/>
+  <text x="460" y="483" text-anchor="middle" font-size="10" fill="#1A1A1A">两个端点都讲 OpenAI Chat Completions 协议，所以同一个 dsh 随便切——这就是"模型即配置"</text>
+</svg>

@@ -1,0 +1,13 @@
+node_modules
+docs/.vitepress/dist
+docs/.vitepress/cache
+.preview
+.DS_Store
+*.local
+
+.dev-notes
+
+
+# 多语言改动记录文件（翻译完成后删除，不提交）
+changes.txt
+*.changes.txt

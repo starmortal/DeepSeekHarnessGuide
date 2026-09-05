@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="320" viewBox="0 0 920 320" font-family="'Noto Serif SC','Source Han Serif SC','Microsoft YaHei',serif">
+  <rect x="6" y="6" width="908" height="308" rx="12" fill="#FDFBF7" stroke="#A9B7F0" stroke-width="2"/>
+
+  <text x="460" y="34" text-anchor="middle" font-size="16" font-weight="bold" fill="#1A1A1A">一次 LLM 请求的三个要素（示意）</text>
+
+  <!-- dsh -->
+  <rect x="30" y="140" width="150" height="96" rx="4" fill="#FFEE58" stroke="#1A1A1A"/>
+  <text x="105" y="178" text-anchor="middle" font-size="16" font-weight="bold" fill="#1A1A1A">dsh</text>
+  <text x="105" y="200" text-anchor="middle" font-size="11" fill="#1A1A1A">你的 Agent 应用</text>
+  <text x="105" y="220" text-anchor="middle" font-size="11" fill="#1A1A1A">发出请求</text>
+
+  <!-- 箭头 dsh -> params -->
+  <line x1="180" y1="188" x2="216" y2="188" stroke="#1A1A1A" stroke-width="2"/>
+  <polygon points="214,181 230,188 214,195" fill="#1A1A1A"/>
+
+  <!-- API Key -->
+  <rect x="230" y="140" width="145" height="96" rx="4" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="302" y="172" text-anchor="middle" font-size="14" font-weight="bold" fill="#1A1A1A">API Key</text>
+  <text x="302" y="196" text-anchor="middle" font-size="11" fill="#4A4A4A">你是谁</text>
+  <text x="302" y="214" text-anchor="middle" font-size="11" fill="#4A4A4A">认证凭证</text>
+
+  <!-- Base URL -->
+  <rect x="385" y="140" width="165" height="96" rx="4" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="467" y="172" text-anchor="middle" font-size="14" font-weight="bold" fill="#1A1A1A">Base URL</text>
+  <text x="467" y="196" text-anchor="middle" font-size="11" fill="#4A4A4A">去哪</text>
+  <text x="467" y="214" text-anchor="middle" font-size="11" fill="#4A4A4A">端点地址</text>
+
+  <!-- Model ID -->
+  <rect x="560" y="140" width="160" height="96" rx="4" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="640" y="172" text-anchor="middle" font-size="14" font-weight="bold" fill="#1A1A1A">Model ID</text>
+  <text x="640" y="196" text-anchor="middle" font-size="11" fill="#4A4A4A">用哪个</text>
+  <text x="640" y="214" text-anchor="middle" font-size="11" fill="#4A4A4A">模型名</text>
+
+  <!-- 箭头 params -> server -->
+  <line x1="720" y1="188" x2="756" y2="188" stroke="#1A1A1A" stroke-width="2"/>
+  <polygon points="754,181 770,188 754,195" fill="#1A1A1A"/>
+
+  <!-- server -->
+  <rect x="770" y="140" width="120" height="96" rx="4" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="830" y="178" text-anchor="middle" font-size="15" font-weight="bold" fill="#4D6BFE">LLM</text>
+  <text x="830" y="200" text-anchor="middle" font-size="11" fill="#4A4A4A">服务端</text>
+  <text x="830" y="220" text-anchor="middle" font-size="11" fill="#4A4A4A">如 DeepSeek API</text>
+
+  <!-- 底部获取方式 -->
+  <text x="460" y="272" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A1A1A">怎么拿（以 DeepSeek 为例）</text>
+  <text x="460" y="296" text-anchor="middle" font-size="11" fill="#4A4A4A">开放平台注册 → 控制台「API Keys」创建并复制 → Base URL 为 https://api.deepseek.com → Model ID 见官方模型列表</text>
+  <text x="460" y="312" text-anchor="middle" font-size="9" fill="#6B7280">（示意）</text>
+</svg>

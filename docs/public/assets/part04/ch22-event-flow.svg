@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="430" viewBox="0 0 860 430" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+  <rect x="6" y="6" width="848" height="418" rx="12" fill="#FDFBF7" stroke="#A9B7F0" stroke-width="2"/>
+  <!-- 顶部：输入 -->
+  <rect x="30" y="30" width="800" height="64" rx="10" fill="#FFFFFF" stroke="#4D6BFE" stroke-width="1.5"/>
+  <text x="50" y="58" font-size="16" font-weight="600" fill="#1F2329">你的输入 / 模型回复</text>
+  <text x="50" y="80" font-size="13" fill="#6B7280">用户发消息、模型流式回话——都先变成"事件"</text>
+  <!-- 箭头 -->
+  <line x1="430" y1="94" x2="430" y2="126" stroke="#4D6BFE" stroke-width="2" marker-end="url(#arw)"/>
+  <defs>
+    <marker id="arw" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#4D6BFE"/>
+    </marker>
+    <marker id="arw2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#4D6BFE"/>
+    </marker>
+  </defs>
+  <!-- 会话控制器 -->
+  <rect x="270" y="130" width="320" height="52" rx="10" fill="#EEF1FF" stroke="#4D6BFE" stroke-width="1.5"/>
+  <text x="430" y="153" font-size="15" font-weight="600" fill="#2A3BD6" text-anchor="middle">会话控制器（Session Controller）</text>
+  <text x="430" y="173" font-size="12" fill="#5A66A8" text-anchor="middle">把一切翻译成标准事件流</text>
+  <!-- 事件流盒子 -->
+  <line x1="430" y1="182" x2="430" y2="210" stroke="#4D6BFE" stroke-width="2" marker-end="url(#arw)"/>
+  <rect x="150" y="214" width="560" height="120" rx="10" fill="#FFFDF5" stroke="#EAB308" stroke-width="1.5"/>
+  <text x="430" y="238" font-size="15" font-weight="600" fill="#A16207" text-anchor="middle">事件流（session/event）</text>
+  <text x="430" y="262" font-size="13" fill="#374151" text-anchor="middle">turn/start · step/start · user/message</text>
+  <text x="430" y="284" font-size="13" fill="#374151" text-anchor="middle">assistant/chunk（流式）· assistant/message · step/end · turn/end</text>
+  <text x="430" y="314" font-size="12" fill="#9CA3AF" text-anchor="middle">UI 渲染的原料——对话、轨迹、状态全靠它</text>
+  <!-- 两条分支 -->
+  <line x1="430" y1="334" x2="430" y2="368" stroke="#4D6BFE" stroke-width="2" marker-end="url(#arw)"/>
+  <rect x="140" y="372" width="270" height="44" rx="10" fill="#FFFFFF" stroke="#EAB308" stroke-width="1.5"/>
+  <text x="275" y="400" font-size="14" font-weight="600" fill="#A16207" text-anchor="middle">UI 插件订阅 ctx.on('session/event')</text>
+  <rect x="450" y="372" width="270" height="44" rx="10" fill="#FFFFFF" stroke="#4D6BFE" stroke-width="1.5"/>
+  <text x="585" y="400" font-size="14" font-weight="600" fill="#2A3BD6" text-anchor="middle">内置界面消费事件，渲染对话/轨迹</text>
+</svg>

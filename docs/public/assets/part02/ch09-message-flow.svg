@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="660" viewBox="0 0 920 660" font-family="'Noto Serif SC','Source Han Serif SC','Microsoft YaHei',serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1A1A1A"/>
+    </marker>
+  </defs>
+
+  <rect x="6" y="6" width="908" height="648" rx="12" fill="#FDFBF7" stroke="#A9B7F0" stroke-width="2"/>
+  <text x="460" y="32" text-anchor="middle" font-size="16" font-weight="bold" fill="#1A1A1A">一条消息的流转：从你回车到它回话（示意）</text>
+  <text x="460" y="50" text-anchor="middle" font-size="11" fill="#4A4A4A">一个轮次（turn）可能包含多个步骤（step）——每次"模型想一下 + 可能动手"就是一个 step</text>
+
+  <text x="668" y="60" font-size="9" font-weight="bold" fill="#4D6BFE">● 持久事件：会写进会话日志</text>
+  <text x="668" y="72" font-size="9" font-weight="bold" fill="#E6A817">● 实时扩展点：可被插件拦截/改写</text>
+
+  <!-- 节点1 -->
+  <rect x="30" y="82" width="620" height="44" rx="4" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="50" y="102" font-size="12" font-weight="bold" fill="#1A1A1A">turn/start · 轮次开始</text>
+  <text x="50" y="118" font-size="9" fill="#4A4A4A">拿到第一条输入之前，轮次先打开</text>
+  <rect x="670" y="84" width="230" height="40" rx="3" fill="#FDFBF7" stroke="#4D6BFE"/>
+  <text x="785" y="103" text-anchor="middle" font-size="9" fill="#1A1A1A">持久</text>
+  <text x="785" y="116" text-anchor="middle" font-size="8" fill="#4A4A4A">写日志</text>
+  <line x1="340" y1="126" x2="340" y2="146" stroke="#1A1A1A" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- 节点2 -->
+  <rect x="30" y="150" width="620" height="44" rx="4" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="50" y="170" font-size="12" font-weight="bold" fill="#1A1A1A">领取输入（inbox）</text>
+  <text x="50" y="186" font-size="9" fill="#4A4A4A">你发的消息立即唤醒；注入的上下文先留着，等另一条消息叫醒</text>
+  <line x1="340" y1="194" x2="340" y2="214" stroke="#1A1A1A" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- 节点3 -->
+  <rect x="30" y="218" width="620" height="44" rx="4" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="50" y="238" font-size="12" font-weight="bold" fill="#1A1A1A">组装：提示词 + 工具 schema</text>
+  <text x="50" y="254" font-size="9" fill="#4A4A4A">system-prompt 把各个插件注册的片段拼起来</text>
+  <line x1="340" y1="262" x2="340" y2="282" stroke="#1A1A1A" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- 节点4 -->
+  <rect x="30" y="286" width="620" height="44" rx="4" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="50" y="306" font-size="12" font-weight="bold" fill="#1A1A1A">agent/pre-step：决定模型看到什么</text>
+  <text x="50" y="322" font-size="9" fill="#4A4A4A">插件可改写要发的内容，或直接拒绝这次</text>
+  <rect x="670" y="288" width="230" height="40" rx="3" fill="#FFFDF5" stroke="#E6A817"/>
+  <text x="785" y="307" text-anchor="middle" font-size="9" fill="#1A1A1A">实时扩展点</text>
+  <text x="785" y="320" text-anchor="middle" font-size="8" fill="#4A4A4A">可拦截</text>
+  <line x1="340" y1="330" x2="340" y2="350" stroke="#1A1A1A" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- 节点5 -->
+  <rect x="30" y="354" width="620" height="44" rx="4" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="50" y="374" font-size="12" font-weight="bold" fill="#1A1A1A">step/start：写入 user/message + 从日志派生模型历史</text>
+  <text x="50" y="390" font-size="9" fill="#4A4A4A">模型这一轮看到什么，都从会话日志投影出来</text>
+  <rect x="670" y="356" width="230" height="40" rx="3" fill="#FDFBF7" stroke="#4D6BFE"/>
+  <text x="785" y="375" text-anchor="middle" font-size="9" fill="#1A1A1A">持久</text>
+  <text x="785" y="388" text-anchor="middle" font-size="8" fill="#4A4A4A">写日志</text>
+  <line x1="340" y1="398" x2="340" y2="418" stroke="#1A1A1A" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- 节点6 -->
+  <rect x="30" y="422" width="620" height="44" rx="4" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="50" y="442" font-size="12" font-weight="bold" fill="#1A1A1A">模型请求 → 回复：agent/request → llm/stream → assistant/message</text>
+  <text x="50" y="458" font-size="9" fill="#4A4A4A">请求可被拦截；模型回复会写进日志</text>
+  <rect x="670" y="424" width="230" height="40" rx="3" fill="#FDFBF7" stroke="#4D6BFE"/>
+  <text x="785" y="443" text-anchor="middle" font-size="9" fill="#1A1A1A">请求：实时 / 回复：持久</text>
+  <text x="785" y="456" text-anchor="middle" font-size="8" fill="#4A4A4A">stream 可拦截</text>
+  <line x1="340" y1="466" x2="340" y2="486" stroke="#1A1A1A" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- 节点7 -->
+  <rect x="30" y="490" width="620" height="56" rx="4" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="50" y="510" font-size="12" font-weight="bold" fill="#1A1A1A">要调工具？→ tool/call → 执行 → tool/result</text>
+  <text x="50" y="528" font-size="9" fill="#4A4A4A">执行前后都可拦截（pre/post-execute）；结果写进日志，给模型下一轮看</text>
+  <text x="50" y="540" font-size="9" fill="#4A4A4A">不调就直接走 step/end</text>
+  <rect x="670" y="492" width="230" height="52" rx="3" fill="#FDFBF7" stroke="#4D6BFE"/>
+  <text x="785" y="511" text-anchor="middle" font-size="9" fill="#1A1A1A">调用：实时 / 结果：持久</text>
+  <text x="785" y="524" text-anchor="middle" font-size="8" fill="#4A4A4A">执行可拦截</text>
+  <line x1="340" y1="546" x2="340" y2="566" stroke="#1A1A1A" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- 节点8 -->
+  <rect x="30" y="570" width="620" height="58" rx="4" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="50" y="592" font-size="12" font-weight="bold" fill="#1A1A1A">step/end：还有活 → 再来一个 step（回到"领取输入"）</text>
+  <text x="50" y="610" font-size="9" fill="#4A4A4A">没有欠的活了 → agent/turn-stopping → turn/end，这一轮结束</text>
+  <rect x="670" y="572" width="230" height="54" rx="3" fill="#FDFBF7" stroke="#4D6BFE"/>
+  <text x="785" y="592" text-anchor="middle" font-size="9" fill="#1A1A1A">持久</text>
+  <text x="785" y="606" text-anchor="middle" font-size="8" fill="#4A4A4A">写日志</text>
+
+  <text x="460" y="646" text-anchor="middle" font-size="9" fill="#6B7280">（示意，依据官方架构文档 turn flow）</text>
+</svg>

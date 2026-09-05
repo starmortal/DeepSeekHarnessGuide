@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="520" viewBox="0 0 920 520" font-family="'Noto Serif SC','Source Han Serif SC','Microsoft YaHei',serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1A1A1A"/>
+    </marker>
+  </defs>
+
+  <rect x="6" y="6" width="908" height="508" rx="12" fill="#FDFBF7" stroke="#A9B7F0" stroke-width="2"/>
+  <text x="460" y="34" text-anchor="middle" font-size="16" font-weight="bold" fill="#1A1A1A">并行子代理：拆任务、派活、收结果（示意）</text>
+  <text x="460" y="52" text-anchor="middle" font-size="11" fill="#4A4A4A">主 Agent 拆任务 → 子代理并行干活 → 结果合并回主 Agent；全程单向，可回放</text>
+
+  <!-- 主 Agent -->
+  <rect x="310" y="78" width="300" height="96" rx="6" fill="#FFFFFF" stroke="#4D6BFE" stroke-width="2"/>
+  <rect x="310" y="78" width="300" height="28" rx="6" fill="#FFEE58"/>
+  <text x="460" y="97" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A1A1A">主 Agent（我）</text>
+  <text x="460" y="130" text-anchor="middle" font-size="10" fill="#1A1A1A">拆任务 · 派活 · 等回传 · 合并</text>
+  <text x="460" y="150" text-anchor="middle" font-size="9" fill="#4A4A4A">工具：subagent / subagent_fork / ralph</text>
+
+  <!-- 派活箭头 -->
+  <line x1="360" y1="174" x2="170" y2="228" stroke="#1A1A1A" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="460" y1="174" x2="460" y2="228" stroke="#1A1A1A" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="560" y1="174" x2="750" y2="228" stroke="#1A1A1A" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- 子代理1 spawn -->
+  <rect x="40" y="232" width="260" height="118" rx="6" fill="#FFFFFF" stroke="#4D6BFE" stroke-width="2"/>
+  <text x="170" y="258" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A1A1A">subagent（spawn）</text>
+  <text x="170" y="278" text-anchor="middle" font-size="9" fill="#4A4A4A">全新上下文 · 任务 A</text>
+  <text x="170" y="296" text-anchor="middle" font-size="9" fill="#4A4A4A">不知道主 Agent 之前聊过什么</text>
+  <text x="170" y="314" text-anchor="middle" font-size="9" fill="#4A4A4A">只按这次指令干活，省 token</text>
+  <text x="170" y="334" text-anchor="middle" font-size="9" fill="#8A8A8A">例：梳理 packages/ 目录</text>
+
+  <!-- 子代理2 spawn -->
+  <rect x="330" y="232" width="260" height="118" rx="6" fill="#FFFFFF" stroke="#4D6BFE" stroke-width="2"/>
+  <text x="460" y="258" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A1A1A">subagent（spawn）</text>
+  <text x="460" y="278" text-anchor="middle" font-size="9" fill="#4A4A4A">全新上下文 · 任务 B</text>
+  <text x="460" y="296" text-anchor="middle" font-size="9" fill="#4A4A4A">与任务 A 互不干扰，可并行</text>
+  <text x="460" y="314" text-anchor="middle" font-size="9" fill="#4A4A4A">查资料 / 分析 / 审查都行</text>
+  <text x="460" y="334" text-anchor="middle" font-size="9" fill="#8A8A8A">例：总结根 README</text>
+
+  <!-- 子代理3 fork -->
+  <rect x="620" y="232" width="260" height="118" rx="6" fill="#FFFFFF" stroke="#E6A817" stroke-width="2"/>
+  <text x="750" y="258" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A1A1A">subagent_fork（fork）</text>
+  <text x="750" y="278" text-anchor="middle" font-size="9" fill="#4A4A4A">继承父会话已完成历史 · 任务 C</text>
+  <text x="750" y="296" text-anchor="middle" font-size="9" fill="#4A4A4A">知道"之前分析到哪了"</text>
+  <text x="750" y="314" text-anchor="middle" font-size="9" fill="#4A4A4A">顺着前面结论往下做</text>
+  <text x="750" y="334" text-anchor="middle" font-size="9" fill="#8A8A8A">例：接着前面的分析查文档</text>
+
+  <!-- fork 继承历史标注 -->
+  <rect x="646" y="366" width="208" height="30" rx="6" fill="#FFF8E1" stroke="#E6A817" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="750" y="384" text-anchor="middle" font-size="9" fill="#1A1A1A">虚线 = 从父会话已完成历史播种</text>
+  <line x1="750" y1="366" x2="750" y2="352" stroke="#E6A817" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- 合并结果 -->
+  <line x1="170" y1="350" x2="170" y2="414" stroke="#1A1A1A" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="460" y1="350" x2="460" y2="414" stroke="#1A1A1A" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="750" y1="396" x2="750" y2="414" stroke="#1A1A1A" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="60" y="420" width="800" height="60" rx="6" fill="#FFFFFF" stroke="#A9B7F0" stroke-width="2"/>
+  <text x="460" y="446" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A1A1A">结果合并回主 Agent</text>
+  <text x="460" y="466" text-anchor="middle" font-size="9" fill="#4A4A4A">持续模式下默认后台跑、回传通知，主 Agent 不干等；指令里写上"等都完成再合并"就不会漏</text>
+</svg>

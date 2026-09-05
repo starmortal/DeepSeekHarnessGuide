@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="470" viewBox="0 0 920 470" font-family="'Noto Serif SC','Source Han Serif SC','Microsoft YaHei',serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4D6BFE"/>
+    </marker>
+  </defs>
+
+  <rect x="6" y="6" width="908" height="458" rx="12" fill="#FDFBF7" stroke="#A9B7F0" stroke-width="2"/>
+  <text x="460" y="32" text-anchor="middle" font-size="16" font-weight="bold" fill="#1A1A1A">会话日志 = 真相源：一切从它派生（示意）</text>
+
+  <!-- 中心日志 -->
+  <rect x="290" y="200" width="340" height="86" rx="6" fill="#FFEE58" stroke="#1A1A1A" stroke-width="2"/>
+  <text x="460" y="230" text-anchor="middle" font-size="14" font-weight="bold" fill="#1A1A1A">会话日志（唯一真相源）</text>
+  <text x="460" y="250" text-anchor="middle" font-size="10" fill="#1A1A1A">追加式 · 只增不改 · 类型化事件</text>
+  <text x="460" y="270" text-anchor="middle" font-size="9" fill="#1A1A1A">turn/* · step/* · user/message · assistant/* · tool/*</text>
+
+  <!-- 上排派生物 -->
+  <rect x="40" y="80" width="250" height="66" rx="4" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="165" y="104" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A1A1A">模型对话历史</text>
+  <text x="165" y="124" text-anchor="middle" font-size="9" fill="#4A4A4A">deriveMessages() 投影</text>
+  <text x="165" y="138" text-anchor="middle" font-size="9" fill="#4A4A4A">从不单独存第二份</text>
+
+  <rect x="335" y="80" width="250" height="66" rx="4" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="460" y="104" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A1A1A">轨迹视图</text>
+  <text x="460" y="124" text-anchor="middle" font-size="9" fill="#4A4A4A">CH 04 那个时间线</text>
+  <text x="460" y="138" text-anchor="middle" font-size="9" fill="#4A4A4A">从日志渲染</text>
+
+  <rect x="630" y="80" width="250" height="66" rx="4" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="755" y="104" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A1A1A">转录 / 导出</text>
+  <text x="755" y="124" text-anchor="middle" font-size="9" fill="#4A4A4A">整轮对话文本</text>
+  <text x="755" y="138" text-anchor="middle" font-size="9" fill="#4A4A4A">从日志重放</text>
+
+  <!-- 下排派生物 -->
+  <rect x="40" y="330" width="250" height="66" rx="4" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="165" y="354" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A1A1A">fork 分叉</text>
+  <text x="165" y="374" text-anchor="middle" font-size="9" fill="#4A4A4A">在某个历史节点</text>
+  <text x="165" y="388" text-anchor="middle" font-size="9" fill="#4A4A4A">长出一条新会话</text>
+
+  <rect x="335" y="330" width="250" height="66" rx="4" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="460" y="354" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A1A1A">遥测 / 统计</text>
+  <text x="460" y="374" text-anchor="middle" font-size="9" fill="#4A4A4A">token 用量、耗时</text>
+  <text x="460" y="388" text-anchor="middle" font-size="9" fill="#4A4A4A">从日志算出来</text>
+
+  <rect x="630" y="330" width="250" height="66" rx="4" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="755" y="354" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A1A1A">持久化文件</text>
+  <text x="755" y="374" text-anchor="middle" font-size="9" fill="#4A4A4A">$DSH_HOME/sessions 里</text>
+  <text x="755" y="388" text-anchor="middle" font-size="9" fill="#4A4A4A">session.jsonl.zstd</text>
+
+  <!-- 中心到各框箭头 -->
+  <line x1="360" y1="200" x2="165" y2="150" stroke="#4D6BFE" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="460" y1="200" x2="460" y2="150" stroke="#4D6BFE" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="560" y1="200" x2="755" y2="150" stroke="#4D6BFE" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="360" y1="286" x2="165" y2="326" stroke="#4D6BFE" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="460" y1="286" x2="460" y2="326" stroke="#4D6BFE" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="560" y1="286" x2="755" y2="326" stroke="#4D6BFE" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <text x="460" y="436" text-anchor="middle" font-size="10" fill="#4D6BFE">模型可见即已记录：任何到达模型请求的东西，都必须能从日志重建（运行时不变式检查）</text>
+  <text x="460" y="456" text-anchor="middle" font-size="9" fill="#6B7280">（示意，依据官方 session 文档：会话日志是追加式事件日志、单一真相源，模型历史从不单独存储）</text>
+</svg>

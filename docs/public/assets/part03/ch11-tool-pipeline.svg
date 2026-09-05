@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="430" viewBox="0 0 920 430" font-family="'Noto Serif SC','Source Han Serif SC','Microsoft YaHei',serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1A1A1A"/>
+    </marker>
+  </defs>
+
+  <rect x="6" y="6" width="908" height="418" rx="12" fill="#FDFBF7" stroke="#A9B7F0" stroke-width="2"/>
+  <text x="460" y="32" text-anchor="middle" font-size="16" font-weight="bold" fill="#1A1A1A">一次工具调用：从模型请求到权威结果（示意）</text>
+  <text x="460" y="50" text-anchor="middle" font-size="11" fill="#4A4A4A">中间每一环都可被插件拦截、增强——这就是"一切皆插件"在工具上的体现</text>
+
+  <!-- 节点1 模型请求 -->
+  <rect x="30" y="80" width="130" height="92" rx="6" fill="#FFFFFF" stroke="#4D6BFE" stroke-width="2"/>
+  <text x="95" y="112" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A1A1A">模型请求</text>
+  <text x="95" y="130" text-anchor="middle" font-size="9" fill="#4A4A4A">tool/call</text>
+  <text x="95" y="146" text-anchor="middle" font-size="9" fill="#4A4A4A">名字 + 参数</text>
+  <text x="95" y="162" text-anchor="middle" font-size="9" fill="#4A4A4A">参数先校验</text>
+
+  <line x1="160" y1="126" x2="190" y2="126" stroke="#1A1A1A" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- 节点2 pre-execute -->
+  <rect x="196" y="80" width="130" height="92" rx="6" fill="#FFFFFF" stroke="#E6A817" stroke-width="2"/>
+  <rect x="196" y="80" width="130" height="26" rx="6" fill="#FFEE58"/>
+  <text x="261" y="97" text-anchor="middle" font-size="11" font-weight="bold" fill="#1A1A1A">pre-execute</text>
+  <text x="261" y="124" text-anchor="middle" font-size="9" fill="#4A4A4A">allow / deny / ask</text>
+  <text x="261" y="140" text-anchor="middle" font-size="9" fill="#4A4A4A">审批弹窗就在这层</text>
+  <text x="261" y="156" text-anchor="middle" font-size="9" fill="#4A4A4A">可拦截 / 可拒绝</text>
+
+  <line x1="326" y1="126" x2="356" y2="126" stroke="#1A1A1A" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- 节点3 guard -->
+  <rect x="362" y="80" width="110" height="92" rx="6" fill="#FFFFFF" stroke="#4D6BFE" stroke-width="2"/>
+  <text x="417" y="112" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A1A1A">guard</text>
+  <text x="417" y="130" text-anchor="middle" font-size="9" fill="#4A4A4A">单调守卫</text>
+  <text x="417" y="146" text-anchor="middle" font-size="9" fill="#4A4A4A">只会更严</text>
+  <text x="417" y="162" text-anchor="middle" font-size="9" fill="#4A4A4A">不放松</text>
+
+  <line x1="472" y1="126" x2="502" y2="126" stroke="#1A1A1A" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- 节点4 execute -->
+  <rect x="508" y="80" width="110" height="92" rx="6" fill="#FFFFFF" stroke="#4D6BFE" stroke-width="2"/>
+  <text x="563" y="112" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A1A1A">execute</text>
+  <text x="563" y="130" text-anchor="middle" font-size="9" fill="#4A4A4A">真正执行</text>
+  <text x="563" y="146" text-anchor="middle" font-size="9" fill="#4A4A4A">可包一层</text>
+  <text x="563" y="162" text-anchor="middle" font-size="9" fill="#4A4A4A">拦截观察</text>
+
+  <line x1="618" y1="126" x2="648" y2="126" stroke="#1A1A1A" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- 节点5 post-execute -->
+  <rect x="654" y="80" width="120" height="92" rx="6" fill="#FFFFFF" stroke="#4D6BFE" stroke-width="2"/>
+  <text x="714" y="112" text-anchor="middle" font-size="11" font-weight="bold" fill="#1A1A1A">post-execute</text>
+  <text x="714" y="130" text-anchor="middle" font-size="9" fill="#4A4A4A">检查结果</text>
+  <text x="714" y="146" text-anchor="middle" font-size="9" fill="#4A4A4A">可替换结果</text>
+
+  <line x1="774" y1="126" x2="800" y2="126" stroke="#1A1A1A" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- 节点6 result -->
+  <rect x="806" y="80" width="96" height="92" rx="6" fill="#FFFFFF" stroke="#4D6BFE" stroke-width="2"/>
+  <text x="854" y="112" text-anchor="middle" font-size="11" font-weight="bold" fill="#1A1A1A">result</text>
+  <text x="854" y="130" text-anchor="middle" font-size="9" fill="#4A4A4A">权威结果</text>
+  <text x="854" y="146" text-anchor="middle" font-size="9" fill="#4A4A4A">回填给模型</text>
+
+  <!-- 底部说明 -->
+  <rect x="40" y="210" width="840" height="150" rx="8" fill="#FFFFFF" stroke="#A9B7F0" stroke-width="1.5"/>
+  <text x="460" y="236" text-anchor="middle" font-size="13" font-weight="bold" fill="#1A1A1A">每个工具在模型眼里长什么样</text>
+  <text x="460" y="258" text-anchor="middle" font-size="11" fill="#4A4A4A">名字 · 描述 · 参数（schema）——只有这些会发给模型</text>
+  <text x="460" y="276" text-anchor="middle" font-size="11" fill="#4A4A4A">执行函数、输出声明、超时、并行标记……全部对模型不可见</text>
+  <line x1="180" y1="292" x2="740" y2="292" stroke="#E6A817" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <text x="460" y="316" text-anchor="middle" font-size="11" fill="#1A1A1A">同一个流水线，既管"读文件 / 跑命令"，也管你以后自己写的工具</text>
+  <text x="460" y="336" text-anchor="middle" font-size="10" fill="#6B7280">参数不合法 → 直接抛错（INVALID_ARGS），不会真的执行</text>
+  <text x="460" y="352" text-anchor="middle" font-size="10" fill="#6B7280">沙箱就挂在 execute 这一步：命令真正跑之前，先套一层文件壳</text>
+</svg>

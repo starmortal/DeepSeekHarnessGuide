@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="440" viewBox="0 0 920 440" font-family="'Noto Serif SC','Source Han Serif SC','Microsoft YaHei',serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4D6BFE"/>
+    </marker>
+  </defs>
+
+  <rect x="6" y="6" width="908" height="428" rx="12" fill="#FDFBF7" stroke="#A9B7F0" stroke-width="2"/>
+  <text x="460" y="32" text-anchor="middle" font-size="16" font-weight="bold" fill="#1A1A1A">核心子系统怎么协作（示意）</text>
+  <text x="460" y="50" text-anchor="middle" font-size="11" fill="#4A4A4A">agent-loop 是主厨，调 llm 接线、调 tools 干活、让 system-prompt 拼盘；一切结果都写进会话日志</text>
+
+  <!-- 顶部 agent-loop -->
+  <rect x="330" y="68" width="260" height="56" rx="4" fill="#FFEE58" stroke="#1A1A1A"/>
+  <text x="460" y="92" text-anchor="middle" font-size="13" font-weight="bold" fill="#1A1A1A">agent-loop（主厨）</text>
+  <text x="460" y="110" text-anchor="middle" font-size="9" fill="#1A1A1A">默认驱动器：请求→工具 的循环</text>
+
+  <!-- 中间三框 -->
+  <rect x="40" y="180" width="250" height="70" rx="4" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="165" y="204" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A1A1A">system-prompt（拼盘）</text>
+  <text x="165" y="224" text-anchor="middle" font-size="9" fill="#4A4A4A">组装提示词 + 工具 schema</text>
+  <text x="165" y="240" text-anchor="middle" font-size="9" fill="#4A4A4A">模型看到什么由它定</text>
+
+  <rect x="335" y="180" width="250" height="70" rx="4" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="460" y="204" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A1A1A">llm（接线员）</text>
+  <text x="460" y="224" text-anchor="middle" font-size="9" fill="#4A4A4A">通过适配器连外部模型</text>
+  <text x="460" y="240" text-anchor="middle" font-size="9" fill="#4A4A4A">模型回复从这里回来</text>
+
+  <rect x="630" y="180" width="250" height="70" rx="4" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="755" y="204" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A1A1A">tools（工具箱）</text>
+  <text x="755" y="224" text-anchor="middle" font-size="9" fill="#4A4A4A">注册表 + 受控执行</text>
+  <text x="755" y="240" text-anchor="middle" font-size="9" fill="#4A4A4A">每个 agent 用自己那套（scope）</text>
+
+  <!-- 底部 session -->
+  <rect x="240" y="316" width="440" height="64" rx="4" fill="#FFFFFF" stroke="#4D6BFE" stroke-width="2"/>
+  <text x="460" y="342" text-anchor="middle" font-size="13" font-weight="bold" fill="#4D6BFE">session（会话日志）</text>
+  <text x="460" y="362" text-anchor="middle" font-size="9" fill="#4A4A4A">追加式记录：你发的、模型回的、工具跑的，全在这里；模型下一轮就靠它</text>
+
+  <!-- 箭头：agent-loop -> 三个 -->
+  <line x1="460" y1="124" x2="190" y2="176" stroke="#4D6BFE" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="460" y1="124" x2="460" y2="176" stroke="#4D6BFE" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="460" y1="124" x2="730" y2="176" stroke="#4D6BFE" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="240" y="150" font-size="9" fill="#4D6BFE">要拼盘</text>
+  <text x="470" y="150" font-size="9" fill="#4D6BFE">发请求</text>
+  <text x="700" y="150" font-size="9" fill="#4D6BFE">调工具</text>
+
+  <!-- 箭头：三框 -> session -->
+  <line x1="165" y1="250" x2="360" y2="312" stroke="#4D6BFE" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="460" y1="250" x2="460" y2="312" stroke="#4D6BFE" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="755" y1="250" x2="560" y2="312" stroke="#4D6BFE" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="120" y="290" font-size="9" fill="#4D6BFE">回复记录</text>
+  <text x="470" y="288" font-size="9" fill="#4D6BFE">模型回复</text>
+  <text x="620" y="290" font-size="9" fill="#4D6BFE">工具结果</text>
+
+  <text x="460" y="416" text-anchor="middle" font-size="9" fill="#6B7280">（示意，依据官方架构文档核心包表；scope 是"每个 agent 的私有注册"隔离原语）</text>
+</svg>

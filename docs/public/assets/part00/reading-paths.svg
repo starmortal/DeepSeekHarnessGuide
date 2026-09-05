@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="380" viewBox="0 0 920 380" font-family="'Noto Serif SC','Source Han Serif SC','Microsoft YaHei',serif">
+  <rect x="6" y="6" width="908" height="368" rx="12" fill="#FDFBF7" stroke="#A9B7F0" stroke-width="2"/>
+
+  <!-- 标题 -->
+  <text x="460" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#1A1A1A">三条阅读路径（示意）</text>
+
+  <!-- 起点 -->
+  <rect x="340" y="44" width="240" height="42" rx="4" fill="#FFFFFF" stroke="#4D6BFE" stroke-width="1.5"/>
+  <text x="460" y="70" text-anchor="middle" font-size="14" font-weight="bold" fill="#1A1A1A">拿到这本书</text>
+
+  <!-- 分叉线 -->
+  <line x1="460" y1="86" x2="150" y2="166" stroke="#4A4A4A" stroke-width="1.5"/>
+  <line x1="460" y1="86" x2="460" y2="166" stroke="#4A4A4A" stroke-width="1.5"/>
+  <line x1="460" y1="86" x2="770" y2="166" stroke="#4A4A4A" stroke-width="1.5"/>
+
+  <!-- 路线一：新手照读（荧光黄） -->
+  <rect x="55"  y="170" width="190" height="62" rx="4" fill="#FFEE58" stroke="#1A1A1A"/>
+  <text x="150" y="194" text-anchor="middle" font-size="14" font-weight="bold" fill="#1A1A1A">路线一 · 新手照读</text>
+  <text x="150" y="216" text-anchor="middle" font-size="11" fill="#1A1A1A">从 0 顺读 · CH 00→07</text>
+  <text x="150" y="258" text-anchor="middle" font-size="11" fill="#6B7280">第一次接触，想系统学</text>
+
+  <!-- 路线二：场景直达 -->
+  <rect x="365" y="170" width="190" height="62" rx="4" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="460" y="194" text-anchor="middle" font-size="14" font-weight="bold" fill="#1A1A1A">路线二 · 场景直达</text>
+  <text x="460" y="216" text-anchor="middle" font-size="11" fill="#4A4A4A">按目标跳 · CH 16/22/28…</text>
+  <text x="460" y="258" text-anchor="middle" font-size="11" fill="#6B7280">有明确目标，不想从头看</text>
+
+  <!-- 路线三：按需深入 -->
+  <rect x="675" y="170" width="190" height="62" rx="4" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="770" y="194" text-anchor="middle" font-size="14" font-weight="bold" fill="#1A1A1A">路线三 · 按需深入</text>
+  <text x="770" y="216" text-anchor="middle" font-size="11" fill="#4A4A4A">当手册查 · 任一章 + 附录</text>
+  <text x="770" y="258" text-anchor="middle" font-size="11" fill="#6B7280">已跑起来，当工具书查</text>
+
+  <!-- 底部注 -->
+  <rect x="200" y="290" width="520" height="32" rx="3" fill="#FFEE58"/>
+  <text x="460" y="311" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A1A1A">无论走哪条，都先读 CH 00 打地基</text>
+  <text x="460" y="352" text-anchor="middle" font-size="10" fill="#6B7280">（示意）</text>
+</svg>

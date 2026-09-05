@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="380" viewBox="0 0 920 380" font-family="'Noto Serif SC','Source Han Serif SC','Microsoft YaHei',serif">
+  <rect x="6" y="6" width="908" height="368" rx="12" fill="#FDFBF7" stroke="#A9B7F0" stroke-width="2"/>
+
+  <!-- 标题 -->
+  <text x="460" y="32" text-anchor="middle" font-size="16" font-weight="bold" fill="#1A1A1A">dsh 是一个多入口启动器（示意）</text>
+
+  <!-- web -->
+  <rect x="60" y="90" width="220" height="72" rx="4" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="170" y="122" text-anchor="middle" font-size="15" font-weight="bold" fill="#1A1A1A">web</text>
+  <text x="170" y="146" text-anchor="middle" font-size="11" fill="#4A4A4A">带界面的工作台</text>
+
+  <!-- headless（本章主角） -->
+  <rect x="60" y="210" width="220" height="72" rx="4" fill="#FFEE58" stroke="#1A1A1A"/>
+  <text x="170" y="242" text-anchor="middle" font-size="15" font-weight="bold" fill="#1A1A1A">headless</text>
+  <text x="170" y="266" text-anchor="middle" font-size="11" fill="#1A1A1A">命令行一次性任务 · 本章主角</text>
+
+  <!-- 中心 dsh -->
+  <rect x="330" y="150" width="260" height="80" rx="4" fill="#FFFFFF" stroke="#4D6BFE" stroke-width="2"/>
+  <text x="460" y="184" text-anchor="middle" font-size="22" font-weight="bold" fill="#4D6BFE">dsh</text>
+  <text x="460" y="210" text-anchor="middle" font-size="11" fill="#1A1A1A">同一个 Harness · 一套插件栈</text>
+
+  <!-- sdk -->
+  <rect x="640" y="90" width="220" height="72" rx="4" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="750" y="122" text-anchor="middle" font-size="15" font-weight="bold" fill="#1A1A1A">sdk</text>
+  <text x="750" y="146" text-anchor="middle" font-size="11" fill="#4A4A4A">JSON-RPC 服务 · 给程序当后端</text>
+
+  <!-- acp -->
+  <rect x="640" y="210" width="220" height="72" rx="4" fill="#FFFFFF" stroke="#4D6BFE"/>
+  <text x="750" y="242" text-anchor="middle" font-size="15" font-weight="bold" fill="#1A1A1A">acp</text>
+  <text x="750" y="266" text-anchor="middle" font-size="11" fill="#4A4A4A">ACP stdio · 自动化客户端</text>
+
+  <!-- 底部注 -->
+  <rect x="170" y="318" width="580" height="30" rx="3" fill="#FFEE58"/>
+  <text x="460" y="338" text-anchor="middle" font-size="12" font-weight="bold" fill="#1A1A1A">每个入口 = 同一套插件栈，只是启动方式不同 · plugin 负责装插件</text>
+  <text x="460" y="366" text-anchor="middle" font-size="10" fill="#6B7280">（示意）</text>
+</svg>
