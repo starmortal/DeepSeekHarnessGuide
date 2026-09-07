@@ -152,3 +152,7 @@ MIT License
 
 GitHub：<https://github.com/super-mortal/DeepSeekHarnessGuide>
 作者：[super-mortal](https://supermortal.cn)
+
+## 学AI，上L站
+
+https://linux.do

@@ -151,3 +151,7 @@ MIT License
 
 GitHub: <https://github.com/super-mortal/DeepSeekHarnessGuide>
 Author: [super-mortal](https://supermortal.cn)
+
+## Learn AI, on L-Station
+
+https://linux.do
