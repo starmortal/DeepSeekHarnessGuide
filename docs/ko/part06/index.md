@@ -9,20 +9,20 @@ title: "운영과 생태계"
 </div>
 
 <div class="start-grid">
-  <a class="start-card" href="/ko/part06/ch27">
-    <span class="sc-no">CH 27</span>
+  <a class="start-card" href="/ko/part06/ch28">
+    <span class="sc-no">CH 28</span>
     <span class="sc-title">배포 방식 선택</span>
     <span class="sc-desc">로컬 / 서버 / Docker · 약 15 분</span>
     <span class="sc-go">읽기 시작 →</span>
   </a>
-  <a class="start-card" href="/ko/part06/ch28">
-    <span class="sc-no">CH 28</span>
+  <a class="start-card" href="/ko/part06/ch29">
+    <span class="sc-no">CH 29</span>
     <span class="sc-title">보안과 컴플라이언스</span>
     <span class="sc-desc">권한 / 키 / 데이터 · 약 12 분</span>
     <span class="sc-go">읽기 시작 →</span>
   </a>
-  <a class="start-card" href="/ko/part06/ch29">
-    <span class="sc-no">CH 29</span>
+  <a class="start-card" href="/ko/part06/ch30">
+    <span class="sc-no">CH 30</span>
     <span class="sc-title">가시성과 컨텍스트 관리</span>
     <span class="sc-desc">궤적 / Token / 압축 · 약 15 분</span>
     <span class="sc-go">읽기 시작 →</span>

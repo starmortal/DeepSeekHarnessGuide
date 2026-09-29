@@ -9,38 +9,38 @@ title: 组装你的 Agent
 </div>
 
 <div class="start-grid">
-  <a class="start-card" href="/part03/ch11">
-    <span class="sc-no">CH 11</span>
+  <a class="start-card" href="/part03/ch12">
+    <span class="sc-no">CH 12</span>
     <span class="sc-title">工具与沙箱</span>
     <span class="sc-desc">安全执行 · 约 15 分钟</span>
     <span class="sc-go">开始读 →</span>
   </a>
-  <a class="start-card" href="/part03/ch12">
-    <span class="sc-no">CH 12</span>
+  <a class="start-card" href="/part03/ch13">
+    <span class="sc-no">CH 13</span>
     <span class="sc-title">接入 MCP 生态</span>
     <span class="sc-desc">Firecrawl 实战 · 约 20 分钟</span>
     <span class="sc-go">开始读 →</span>
   </a>
-  <a class="start-card" href="/part03/ch13">
-    <span class="sc-no">CH 13</span>
+  <a class="start-card" href="/part03/ch14">
+    <span class="sc-no">CH 14</span>
     <span class="sc-title">子代理与多 Agent 编排</span>
     <span class="sc-desc">spawn / fork · 约 12 分钟</span>
     <span class="sc-go">开始读 →</span>
   </a>
-  <a class="start-card" href="/part03/ch14">
-    <span class="sc-no">CH 14</span>
+  <a class="start-card" href="/part03/ch15">
+    <span class="sc-no">CH 15</span>
     <span class="sc-title">Skill 与工作流</span>
     <span class="sc-desc">可复用能力 · 约 15 分钟</span>
     <span class="sc-go">开始读 →</span>
   </a>
-  <a class="start-card" href="/part03/ch15">
-    <span class="sc-no">CH 15</span>
+  <a class="start-card" href="/part03/ch16">
+    <span class="sc-no">CH 16</span>
     <span class="sc-title">定时任务与后台运行</span>
     <span class="sc-desc">每日热点自动推送 · 约 15 分钟</span>
     <span class="sc-go">开始读 →</span>
   </a>
-  <a class="start-card" href="/part03/ch16">
-    <span class="sc-no">CH 16</span>
+  <a class="start-card" href="/part03/ch17">
+    <span class="sc-no">CH 17</span>
     <span class="sc-title">本地部署与 Token 自由</span>
     <span class="sc-desc">LM Studio 本地模型 · 约 18 分钟</span>
     <span class="sc-go">开始读 →</span>

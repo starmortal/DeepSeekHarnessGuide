@@ -9,20 +9,20 @@ title: 理解骨架：万物皆插件
 </div>
 
 <div class="start-grid">
-  <a class="start-card" href="/part02/ch08">
-    <span class="sc-no">CH 08</span>
+  <a class="start-card" href="/part02/ch09">
+    <span class="sc-no">CH 09</span>
     <span class="sc-title">插件树心智模型</span>
     <span class="sc-desc">万物皆插件 · 约 15 分钟</span>
     <span class="sc-go">开始读 →</span>
   </a>
-  <a class="start-card" href="/part02/ch09">
-    <span class="sc-no">CH 09</span>
+  <a class="start-card" href="/part02/ch10">
+    <span class="sc-no">CH 10</span>
     <span class="sc-title">核心子系统与消息流转</span>
     <span class="sc-desc">从你回车到它回话 · 约 12 分钟</span>
     <span class="sc-go">开始读 →</span>
   </a>
-  <a class="start-card" href="/part02/ch10">
-    <span class="sc-no">CH 10</span>
+  <a class="start-card" href="/part02/ch11">
+    <span class="sc-no">CH 11</span>
     <span class="sc-title">会话日志即真相源</span>
     <span class="sc-desc">每次运行都可追溯 · 约 10 分钟</span>
     <span class="sc-go">开始读 →</span>

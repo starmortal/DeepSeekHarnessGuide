@@ -9,20 +9,20 @@ title: 生产与生态
 </div>
 
 <div class="start-grid">
-  <a class="start-card" href="/part06/ch27">
-    <span class="sc-no">CH 27</span>
+  <a class="start-card" href="/part06/ch28">
+    <span class="sc-no">CH 28</span>
     <span class="sc-title">部署形态选型</span>
     <span class="sc-desc">本地 / 服务器 / Docker · 约 15 分钟</span>
     <span class="sc-go">开始读 →</span>
   </a>
-  <a class="start-card" href="/part06/ch28">
-    <span class="sc-no">CH 28</span>
+  <a class="start-card" href="/part06/ch29">
+    <span class="sc-no">CH 29</span>
     <span class="sc-title">安全与合规</span>
     <span class="sc-desc">权限 / 密钥 / 数据 · 约 12 分钟</span>
     <span class="sc-go">开始读 →</span>
   </a>
-  <a class="start-card" href="/part06/ch29">
-    <span class="sc-no">CH 29</span>
+  <a class="start-card" href="/part06/ch30">
+    <span class="sc-no">CH 30</span>
     <span class="sc-title">可观测性与上下文管理</span>
     <span class="sc-desc">轨迹 / Token / 压缩 · 约 15 分钟</span>
     <span class="sc-go">开始读 →</span>

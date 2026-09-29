@@ -9,20 +9,20 @@ title: "뼈대를 이해한다: 만물은 모두 플러그인"
 </div>
 
 <div class="start-grid">
-  <a class="start-card" href="/ko/part02/ch08">
-    <span class="sc-no">CH 08</span>
+  <a class="start-card" href="/ko/part02/ch09">
+    <span class="sc-no">CH 09</span>
     <span class="sc-title">플러그인 트리 멘탈 모델</span>
     <span class="sc-desc">만물은 모두 플러그인 · 약 15분</span>
     <span class="sc-go">읽기 시작 →</span>
   </a>
-  <a class="start-card" href="/ko/part02/ch09">
-    <span class="sc-no">CH 09</span>
+  <a class="start-card" href="/ko/part02/ch10">
+    <span class="sc-no">CH 10</span>
     <span class="sc-title">핵심 서브시스템과 메시지 흐름</span>
     <span class="sc-desc">Enter 키부터 응답까지 · 약 12분</span>
     <span class="sc-go">읽기 시작 →</span>
   </a>
-  <a class="start-card" href="/ko/part02/ch10">
-    <span class="sc-no">CH 10</span>
+  <a class="start-card" href="/ko/part02/ch11">
+    <span class="sc-no">CH 11</span>
     <span class="sc-title">세션 로그가 곧 진실의 원천</span>
     <span class="sc-desc">모든 실행은 추적 가능 · 약 10분</span>
     <span class="sc-go">읽기 시작 →</span>

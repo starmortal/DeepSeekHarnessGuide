@@ -9,20 +9,20 @@ title: Scenario Practice
 </div>
 
 <div class="start-grid">
-  <a class="start-card" href="/en/part05/ch24">
-    <span class="sc-no">CH 24</span>
+  <a class="start-card" href="/en/part05/ch25">
+    <span class="sc-no">CH 25</span>
     <span class="sc-title">Personal Site / Landing Page</span>
     <span class="sc-desc">Brutalist-style HTML · ~10 min</span>
     <span class="sc-go">Start reading →</span>
   </a>
-  <a class="start-card" href="/en/part05/ch25">
-    <span class="sc-no">CH 25</span>
+  <a class="start-card" href="/en/part05/ch26">
+    <span class="sc-no">CH 26</span>
     <span class="sc-title">From a Brief to a PPT, via dsh</span>
     <span class="sc-desc">dashiai-ppt skill · ~20 min</span>
     <span class="sc-go">Start reading →</span>
   </a>
-  <a class="start-card" href="/en/part05/ch26">
-    <span class="sc-no">CH 26</span>
+  <a class="start-card" href="/en/part05/ch27">
+    <span class="sc-no">CH 27</span>
     <span class="sc-title">dsh + Remotion: From a Sentence to a Video</span>
     <span class="sc-desc">60-second intro video · ~40 min</span>
     <span class="sc-go">Start reading →</span>

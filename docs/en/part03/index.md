@@ -9,38 +9,38 @@ title: Assemble Your Agent
 </div>
 
 <div class="start-grid">
-  <a class="start-card" href="/en/part03/ch11">
-    <span class="sc-no">CH 11</span>
+  <a class="start-card" href="/en/part03/ch12">
+    <span class="sc-no">CH 12</span>
     <span class="sc-title">Tools and Sandbox</span>
     <span class="sc-desc">Safe execution · ~15 min</span>
     <span class="sc-go">Start reading →</span>
   </a>
-  <a class="start-card" href="/en/part03/ch12">
-    <span class="sc-no">CH 12</span>
+  <a class="start-card" href="/en/part03/ch13">
+    <span class="sc-no">CH 13</span>
     <span class="sc-title">Plug into the MCP Ecosystem</span>
     <span class="sc-desc">Firecrawl hands-on · ~20 min</span>
     <span class="sc-go">Start reading →</span>
   </a>
-  <a class="start-card" href="/en/part03/ch13">
-    <span class="sc-no">CH 13</span>
+  <a class="start-card" href="/en/part03/ch14">
+    <span class="sc-no">CH 14</span>
     <span class="sc-title">Subagents and Multi-Agent Orchestration</span>
     <span class="sc-desc">spawn / fork · ~12 min</span>
     <span class="sc-go">Start reading →</span>
   </a>
-  <a class="start-card" href="/en/part03/ch14">
-    <span class="sc-no">CH 14</span>
+  <a class="start-card" href="/en/part03/ch15">
+    <span class="sc-no">CH 15</span>
     <span class="sc-title">Skill and Workflow</span>
     <span class="sc-desc">Reusable capabilities · ~15 min</span>
     <span class="sc-go">Start reading →</span>
   </a>
-  <a class="start-card" href="/en/part03/ch15">
-    <span class="sc-no">CH 15</span>
+  <a class="start-card" href="/en/part03/ch16">
+    <span class="sc-no">CH 16</span>
     <span class="sc-title">Scheduled Tasks and Background Runs</span>
     <span class="sc-desc">Daily hot-topic auto-push · ~15 min</span>
     <span class="sc-go">Start reading →</span>
   </a>
-  <a class="start-card" href="/en/part03/ch16">
-    <span class="sc-no">CH 16</span>
+  <a class="start-card" href="/en/part03/ch17">
+    <span class="sc-no">CH 17</span>
     <span class="sc-title">Local Deployment and Token Freedom</span>
     <span class="sc-desc">LM Studio local model · ~18 min</span>
     <span class="sc-go">Start reading →</span>

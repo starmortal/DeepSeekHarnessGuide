@@ -9,44 +9,44 @@ title: 会装、会写、会发插件
 </div>
 
 <div class="start-grid">
-  <a class="start-card" href="/part04/ch17">
-    <span class="sc-no">CH 17</span>
+  <a class="start-card" href="/part04/ch18">
+    <span class="sc-no">CH 18</span>
     <span class="sc-title">插件安装</span>
     <span class="sc-desc">dsh plugin + 插件市场 · 约 12 分钟</span>
     <span class="sc-go">开始读 →</span>
   </a>
-  <a class="start-card" href="/part04/ch18">
-    <span class="sc-no">CH 18</span>
+  <a class="start-card" href="/part04/ch19">
+    <span class="sc-no">CH 19</span>
     <span class="sc-title">第一个插件 hello-plugin</span>
     <span class="sc-desc">最小可运行插件 · 约 15 分钟</span>
     <span class="sc-go">开始读 →</span>
   </a>
-  <a class="start-card" href="/part04/ch19">
-    <span class="sc-no">CH 19</span>
+  <a class="start-card" href="/part04/ch20">
+    <span class="sc-no">CH 20</span>
     <span class="sc-title">插件三形态</span>
     <span class="sc-desc">service / loader / patch · 约 12 分钟</span>
     <span class="sc-go">开始读 →</span>
   </a>
-  <a class="start-card" href="/part04/ch20">
-    <span class="sc-no">CH 20</span>
+  <a class="start-card" href="/part04/ch21">
+    <span class="sc-no">CH 21</span>
     <span class="sc-title">工具插件 defineTool</span>
     <span class="sc-desc">给 Agent 加新能力 · 约 12 分钟</span>
     <span class="sc-go">开始读 →</span>
   </a>
-  <a class="start-card" href="/part04/ch21">
-    <span class="sc-no">CH 21</span>
+  <a class="start-card" href="/part04/ch22">
+    <span class="sc-no">CH 22</span>
     <span class="sc-title">钩子插件与拦截</span>
     <span class="sc-desc">tools/pre-execute · 约 10 分钟</span>
     <span class="sc-go">开始读 →</span>
   </a>
-  <a class="start-card" href="/part04/ch22">
-    <span class="sc-no">CH 22</span>
+  <a class="start-card" href="/part04/ch23">
+    <span class="sc-no">CH 23</span>
     <span class="sc-title">UI 插件</span>
     <span class="sc-desc">设置页 + 事件监听 · 约 15 分钟</span>
     <span class="sc-go">开始读 →</span>
   </a>
-  <a class="start-card" href="/part04/ch23">
-    <span class="sc-no">CH 23</span>
+  <a class="start-card" href="/part04/ch24">
+    <span class="sc-no">CH 24</span>
     <span class="sc-title">发布与分发</span>
     <span class="sc-desc">npm + GitHub Release · 约 12 分钟</span>
     <span class="sc-go">开始读 →</span>

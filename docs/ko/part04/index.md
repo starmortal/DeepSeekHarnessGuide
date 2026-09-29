@@ -9,44 +9,44 @@ title: "플러그인의 설치, 작성, 그리고 발행"
 </div>
 
 <div class="start-grid">
-  <a class="start-card" href="/ko/part04/ch17">
-    <span class="sc-no">CH 17</span>
+  <a class="start-card" href="/ko/part04/ch18">
+    <span class="sc-no">CH 18</span>
     <span class="sc-title">플러그인 설치</span>
     <span class="sc-desc">dsh plugin + 플러그인 마켓 · 약 12분</span>
     <span class="sc-go">읽기 시작 →</span>
   </a>
-  <a class="start-card" href="/ko/part04/ch18">
-    <span class="sc-no">CH 18</span>
+  <a class="start-card" href="/ko/part04/ch19">
+    <span class="sc-no">CH 19</span>
     <span class="sc-title">첫 플러그인: hello-plugin</span>
     <span class="sc-desc">최소한으로 실행 가능한 플러그인 · 약 15분</span>
     <span class="sc-go">읽기 시작 →</span>
   </a>
-  <a class="start-card" href="/ko/part04/ch19">
-    <span class="sc-no">CH 19</span>
+  <a class="start-card" href="/ko/part04/ch20">
+    <span class="sc-no">CH 20</span>
     <span class="sc-title">플러그인의 세 가지 형태</span>
     <span class="sc-desc">service / loader / patch · 약 12분</span>
     <span class="sc-go">읽기 시작 →</span>
   </a>
-  <a class="start-card" href="/ko/part04/ch20">
-    <span class="sc-no">CH 20</span>
+  <a class="start-card" href="/ko/part04/ch21">
+    <span class="sc-no">CH 21</span>
     <span class="sc-title">도구 플러그인: defineTool</span>
     <span class="sc-desc">Agent에 새로운 능력 추가 · 약 12분</span>
     <span class="sc-go">읽기 시작 →</span>
   </a>
-  <a class="start-card" href="/ko/part04/ch21">
-    <span class="sc-no">CH 21</span>
+  <a class="start-card" href="/ko/part04/ch22">
+    <span class="sc-no">CH 22</span>
     <span class="sc-title">훅 플러그인과 가로채기</span>
     <span class="sc-desc">tools/pre-execute · 약 10분</span>
     <span class="sc-go">읽기 시작 →</span>
   </a>
-  <a class="start-card" href="/ko/part04/ch22">
-    <span class="sc-no">CH 22</span>
+  <a class="start-card" href="/ko/part04/ch23">
+    <span class="sc-no">CH 23</span>
     <span class="sc-title">UI 플러그인</span>
     <span class="sc-desc">설정 페이지 + 이벤트 리스너 · 약 15분</span>
     <span class="sc-go">읽기 시작 →</span>
   </a>
-  <a class="start-card" href="/ko/part04/ch23">
-    <span class="sc-no">CH 23</span>
+  <a class="start-card" href="/ko/part04/ch24">
+    <span class="sc-no">CH 24</span>
     <span class="sc-title">발행과 배포</span>
     <span class="sc-desc">npm + GitHub Release · 약 12분</span>
     <span class="sc-go">읽기 시작 →</span>

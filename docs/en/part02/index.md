@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Understanding the Skeleton: Everything is a Plugin"
 ---
 
@@ -9,20 +9,20 @@ title: "Understanding the Skeleton: Everything is a Plugin"
 </div>
 
 <div class="start-grid">
-  <a class="start-card" href="/en/part02/ch08">
-    <span class="sc-no">CH 08</span>
+  <a class="start-card" href="/en/part02/ch09">
+    <span class="sc-no">CH 09</span>
     <span class="sc-title">Plugin Tree Mental Model</span>
     <span class="sc-desc">Everything is a plugin · ~15 min</span>
     <span class="sc-go">Start reading →</span>
   </a>
-  <a class="start-card" href="/en/part02/ch09">
-    <span class="sc-no">CH 09</span>
+  <a class="start-card" href="/en/part02/ch10">
+    <span class="sc-no">CH 10</span>
     <span class="sc-title">Core Subsystems and Message Flow</span>
     <span class="sc-desc">From your Enter key to its reply · ~12 min</span>
     <span class="sc-go">Start reading →</span>
   </a>
-  <a class="start-card" href="/en/part02/ch10">
-    <span class="sc-no">CH 10</span>
+  <a class="start-card" href="/en/part02/ch11">
+    <span class="sc-no">CH 11</span>
     <span class="sc-title">Session Log as Source of Truth</span>
     <span class="sc-desc">Every run is traceable · ~10 min</span>
     <span class="sc-go">Start reading →</span>

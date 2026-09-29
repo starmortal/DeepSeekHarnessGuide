@@ -9,38 +9,38 @@ title: "Monte o seu Agent"
 </div>
 
 <div class="start-grid">
-  <a class="start-card" href="/pt/part03/ch11">
-    <span class="sc-no">CH 11</span>
+  <a class="start-card" href="/pt/part03/ch12">
+    <span class="sc-no">CH 12</span>
     <span class="sc-title">Ferramentas e Sandbox</span>
     <span class="sc-desc">Execução segura · ~15 min</span>
     <span class="sc-go">Começar a ler →</span>
   </a>
-  <a class="start-card" href="/pt/part03/ch12">
-    <span class="sc-no">CH 12</span>
+  <a class="start-card" href="/pt/part03/ch13">
+    <span class="sc-no">CH 13</span>
     <span class="sc-title">Conecte-se ao Ecossistema MCP</span>
     <span class="sc-desc">Mão na obra com Firecrawl · ~20 min</span>
     <span class="sc-go">Começar a ler →</span>
   </a>
-  <a class="start-card" href="/pt/part03/ch13">
-    <span class="sc-no">CH 13</span>
+  <a class="start-card" href="/pt/part03/ch14">
+    <span class="sc-no">CH 14</span>
     <span class="sc-title">Subagentes e Orquestração Multi-Agent</span>
     <span class="sc-desc">spawn / fork · ~12 min</span>
     <span class="sc-go">Começar a ler →</span>
   </a>
-  <a class="start-card" href="/pt/part03/ch14">
-    <span class="sc-no">CH 14</span>
+  <a class="start-card" href="/pt/part03/ch15">
+    <span class="sc-no">CH 15</span>
     <span class="sc-title">Skill e Workflow</span>
     <span class="sc-desc">Capacidades reutilizáveis · ~15 min</span>
     <span class="sc-go">Começar a ler →</span>
   </a>
-  <a class="start-card" href="/pt/part03/ch15">
-    <span class="sc-no">CH 15</span>
+  <a class="start-card" href="/pt/part03/ch16">
+    <span class="sc-no">CH 16</span>
     <span class="sc-title">Tarefas Agendadas e Execuções em Segundo Plano</span>
     <span class="sc-desc">Auto-push diário de hot-topics · ~15 min</span>
     <span class="sc-go">Começar a ler →</span>
   </a>
-  <a class="start-card" href="/pt/part03/ch16">
-    <span class="sc-no">CH 16</span>
+  <a class="start-card" href="/pt/part03/ch17">
+    <span class="sc-no">CH 17</span>
     <span class="sc-title">Deploy Local e Liberdade de Token</span>
     <span class="sc-desc">Modelo local LM Studio · ~18 min</span>
     <span class="sc-go">Começar a ler →</span>

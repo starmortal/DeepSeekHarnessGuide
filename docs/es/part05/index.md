@@ -9,20 +9,20 @@ title: "Práctica por escenarios"
 </div>
 
 <div class="start-grid">
-  <a class="start-card" href="/es/part05/ch24">
-    <span class="sc-no">CH 24</span>
+  <a class="start-card" href="/es/part05/ch25">
+    <span class="sc-no">CH 25</span>
     <span class="sc-title">Sitio personal / Landing page</span>
     <span class="sc-desc">HTML estilo brutalista · ~10 min</span>
     <span class="sc-go">Empezar a leer →</span>
   </a>
-  <a class="start-card" href="/es/part05/ch25">
-    <span class="sc-no">CH 25</span>
+  <a class="start-card" href="/es/part05/ch26">
+    <span class="sc-no">CH 26</span>
     <span class="sc-title">De un brief a un PPT, vía dsh</span>
     <span class="sc-desc">skill dashiai-ppt · ~20 min</span>
     <span class="sc-go">Empezar a leer →</span>
   </a>
-  <a class="start-card" href="/es/part05/ch26">
-    <span class="sc-no">CH 26</span>
+  <a class="start-card" href="/es/part05/ch27">
+    <span class="sc-no">CH 27</span>
     <span class="sc-title">dsh + Remotion: de una frase a un vídeo</span>
     <span class="sc-desc">Vídeo introductorio de 60 segundos · ~40 min</span>
     <span class="sc-go">Empezar a leer →</span>

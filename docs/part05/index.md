@@ -9,20 +9,20 @@ title: 场景实操
 </div>
 
 <div class="start-grid">
-  <a class="start-card" href="/part05/ch24">
-    <span class="sc-no">CH 24</span>
+  <a class="start-card" href="/part05/ch25">
+    <span class="sc-no">CH 25</span>
     <span class="sc-title">个人网站 / 落地页</span>
     <span class="sc-desc">野兽派风格 HTML · 约 10 分钟</span>
     <span class="sc-go">开始读 →</span>
   </a>
-  <a class="start-card" href="/part05/ch25">
-    <span class="sc-no">CH 25</span>
+  <a class="start-card" href="/part05/ch26">
+    <span class="sc-no">CH 26</span>
     <span class="sc-title">一份材料，让 dsh 做成 PPT</span>
     <span class="sc-desc">dashiai-ppt skill · 约 20 分钟</span>
     <span class="sc-go">开始读 →</span>
   </a>
-  <a class="start-card" href="/part05/ch26">
-    <span class="sc-no">CH 26</span>
+  <a class="start-card" href="/part05/ch27">
+    <span class="sc-no">CH 27</span>
     <span class="sc-title">dsh + Remotion：从一句话到一段视频</span>
     <span class="sc-desc">60 秒介绍视频 · 约 40 分钟</span>
     <span class="sc-go">开始读 →</span>

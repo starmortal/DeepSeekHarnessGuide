@@ -5,7 +5,7 @@ title: "0 から 1 へ:dsh を動かす"
 # PART 01 · 0 から 1 へ
 
 <div class="lead">
-  初心者推奨。dsh をインストールし、起動し、初めての会話を完結させる。6 章で、理解からトラブルシュートまで順を追って地盤を築く。
+  初心者推奨。dsh をインストールし、起動し、初めての会話を完結させる。7 章で、理解からトラブルシュートまで順を追って地盤を築く。
 </div>
 
 <div class="start-grid">
@@ -21,26 +21,32 @@ title: "0 から 1 へ:dsh を動かす"
     <span class="sc-desc">Node.js + ワンコマンド · 約 15 分</span>
     <span class="sc-go">読み始める →</span>
   </a>
-  <a class="start-card" href="/ja/part01/ch04">
+    <a class="start-card" href="/ja/part01/ch04">
     <span class="sc-no">CH 04</span>
+    <span class="sc-title">公式デスクトップアプリ</span>
+    <span class="sc-desc">独立アプリ、Node 不要 · 約 13 分</span>
+    <span class="sc-go">読み始める →</span>
+  </a>
+<a class="start-card" href="/ja/part01/ch05">
+    <span class="sc-no">CH 05</span>
     <span class="sc-title">Web UI を理解する</span>
     <span class="sc-desc">画面構成 + 初めての会話 · 約 12 分</span>
     <span class="sc-go">読み始める →</span>
   </a>
-  <a class="start-card" href="/ja/part01/ch05">
-    <span class="sc-no">CH 05</span>
+  <a class="start-card" href="/ja/part01/ch06">
+    <span class="sc-no">CH 06</span>
     <span class="sc-title">コマンドライン:headless</span>
     <span class="sc-desc">UI なしの自動化 · 約 10 分</span>
     <span class="sc-go">読み始める →</span>
   </a>
-  <a class="start-card" href="/ja/part01/ch06">
-    <span class="sc-no">CH 06</span>
+  <a class="start-card" href="/ja/part01/ch07">
+    <span class="sc-no">CH 07</span>
     <span class="sc-title">モデルと推論レベルの設定</span>
     <span class="sc-desc">DeepSeek + サードパーティモデル · 約 12 分</span>
     <span class="sc-go">読み始める →</span>
   </a>
-  <a class="start-card" href="/ja/part01/ch07">
-    <span class="sc-no">CH 07</span>
+  <a class="start-card" href="/ja/part01/ch08">
+    <span class="sc-no">CH 08</span>
     <span class="sc-title">トラブルシューティング早見表</span>
     <span class="sc-desc">よくあるエラーと解決策 · 約 8 分</span>
     <span class="sc-go">読み始める →</span>

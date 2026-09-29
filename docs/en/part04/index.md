@@ -9,44 +9,44 @@ title: Install, Write, and Publish Plugins
 </div>
 
 <div class="start-grid">
-  <a class="start-card" href="/en/part04/ch17">
-    <span class="sc-no">CH 17</span>
+  <a class="start-card" href="/en/part04/ch18">
+    <span class="sc-no">CH 18</span>
     <span class="sc-title">Plugin Installation</span>
     <span class="sc-desc">dsh plugin + Plugin Market · ~12 min</span>
     <span class="sc-go">Start reading →</span>
   </a>
-  <a class="start-card" href="/en/part04/ch18">
-    <span class="sc-no">CH 18</span>
+  <a class="start-card" href="/en/part04/ch19">
+    <span class="sc-no">CH 19</span>
     <span class="sc-title">Your First Plugin: hello-plugin</span>
     <span class="sc-desc">Minimal runnable plugin · ~15 min</span>
     <span class="sc-go">Start reading →</span>
   </a>
-  <a class="start-card" href="/en/part04/ch19">
-    <span class="sc-no">CH 19</span>
+  <a class="start-card" href="/en/part04/ch20">
+    <span class="sc-no">CH 20</span>
     <span class="sc-title">Three Plugin Forms</span>
     <span class="sc-desc">service / loader / patch · ~12 min</span>
     <span class="sc-go">Start reading →</span>
   </a>
-  <a class="start-card" href="/en/part04/ch20">
-    <span class="sc-no">CH 20</span>
+  <a class="start-card" href="/en/part04/ch21">
+    <span class="sc-no">CH 21</span>
     <span class="sc-title">Tool Plugin: defineTool</span>
     <span class="sc-desc">Add new capability to Agent · ~12 min</span>
     <span class="sc-go">Start reading →</span>
   </a>
-  <a class="start-card" href="/en/part04/ch21">
-    <span class="sc-no">CH 21</span>
+  <a class="start-card" href="/en/part04/ch22">
+    <span class="sc-no">CH 22</span>
     <span class="sc-title">Hook Plugins and Interception</span>
     <span class="sc-desc">tools/pre-execute · ~10 min</span>
     <span class="sc-go">Start reading →</span>
   </a>
-  <a class="start-card" href="/en/part04/ch22">
-    <span class="sc-no">CH 22</span>
+  <a class="start-card" href="/en/part04/ch23">
+    <span class="sc-no">CH 23</span>
     <span class="sc-title">UI Plugins</span>
     <span class="sc-desc">Settings page + event listener · ~15 min</span>
     <span class="sc-go">Start reading →</span>
   </a>
-  <a class="start-card" href="/en/part04/ch23">
-    <span class="sc-no">CH 23</span>
+  <a class="start-card" href="/en/part04/ch24">
+    <span class="sc-no">CH 24</span>
     <span class="sc-title">Publish and Distribute</span>
     <span class="sc-desc">npm + GitHub Release · ~12 min</span>
     <span class="sc-go">Start reading →</span>

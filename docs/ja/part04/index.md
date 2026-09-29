@@ -9,44 +9,44 @@ title: "プラグインのインストール・作成・公開"
 </div>
 
 <div class="start-grid">
-  <a class="start-card" href="/ja/part04/ch17">
-    <span class="sc-no">CH 17</span>
+  <a class="start-card" href="/ja/part04/ch18">
+    <span class="sc-no">CH 18</span>
     <span class="sc-title">プラグインインストール</span>
     <span class="sc-desc">dsh plugin + プラグインマーケット · 約 12 分</span>
     <span class="sc-go">読み始める →</span>
   </a>
-  <a class="start-card" href="/ja/part04/ch18">
-    <span class="sc-no">CH 18</span>
+  <a class="start-card" href="/ja/part04/ch19">
+    <span class="sc-no">CH 19</span>
     <span class="sc-title">最初のプラグイン:hello-plugin</span>
     <span class="sc-desc">最小限の実行可能プラグイン · 約 15 分</span>
     <span class="sc-go">読み始める →</span>
   </a>
-  <a class="start-card" href="/ja/part04/ch19">
-    <span class="sc-no">CH 19</span>
+  <a class="start-card" href="/ja/part04/ch20">
+    <span class="sc-no">CH 20</span>
     <span class="sc-title">プラグインの 3 形態</span>
     <span class="sc-desc">service / loader / patch · 約 12 分</span>
     <span class="sc-go">読み始める →</span>
   </a>
-  <a class="start-card" href="/ja/part04/ch20">
-    <span class="sc-no">CH 20</span>
+  <a class="start-card" href="/ja/part04/ch21">
+    <span class="sc-no">CH 21</span>
     <span class="sc-title">ツールプラグイン:defineTool</span>
     <span class="sc-desc">Agent に新能力を · 約 12 分</span>
     <span class="sc-go">読み始める →</span>
   </a>
-  <a class="start-card" href="/ja/part04/ch21">
-    <span class="sc-no">CH 21</span>
+  <a class="start-card" href="/ja/part04/ch22">
+    <span class="sc-no">CH 22</span>
     <span class="sc-title">フックプラグインと介入</span>
     <span class="sc-desc">tools/pre-execute · 約 10 分</span>
     <span class="sc-go">読み始める →</span>
   </a>
-  <a class="start-card" href="/ja/part04/ch22">
-    <span class="sc-no">CH 22</span>
+  <a class="start-card" href="/ja/part04/ch23">
+    <span class="sc-no">CH 23</span>
     <span class="sc-title">UI プラグイン</span>
     <span class="sc-desc">設定ページ + イベントリスナー · 約 15 分</span>
     <span class="sc-go">読み始める →</span>
   </a>
-  <a class="start-card" href="/ja/part04/ch23">
-    <span class="sc-no">CH 23</span>
+  <a class="start-card" href="/ja/part04/ch24">
+    <span class="sc-no">CH 24</span>
     <span class="sc-title">公開と配布</span>
     <span class="sc-desc">npm + GitHub Release · 約 12 分</span>
     <span class="sc-go">読み始める →</span>

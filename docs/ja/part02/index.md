@@ -9,20 +9,20 @@ title: "骨格を理解する:すべてはプラグイン"
 </div>
 
 <div class="start-grid">
-  <a class="start-card" href="/ja/part02/ch08">
-    <span class="sc-no">CH 08</span>
+  <a class="start-card" href="/ja/part02/ch09">
+    <span class="sc-no">CH 09</span>
     <span class="sc-title">プラグインツリーのメンタルモデル</span>
     <span class="sc-desc">すべてはプラグイン · 約 15 分</span>
     <span class="sc-go">読み始める →</span>
   </a>
-  <a class="start-card" href="/ja/part02/ch09">
-    <span class="sc-no">CH 09</span>
+  <a class="start-card" href="/ja/part02/ch10">
+    <span class="sc-no">CH 10</span>
     <span class="sc-title">中核サブシステムとメッセージの流れ</span>
     <span class="sc-desc">Enter キーから返答まで · 約 12 分</span>
     <span class="sc-go">読み始める →</span>
   </a>
-  <a class="start-card" href="/ja/part02/ch10">
-    <span class="sc-no">CH 10</span>
+  <a class="start-card" href="/ja/part02/ch11">
+    <span class="sc-no">CH 11</span>
     <span class="sc-title">セッションログ=真実の源</span>
     <span class="sc-desc">すべての実行が追跡可能 · 約 10 分</span>
     <span class="sc-go">読み始める →</span>

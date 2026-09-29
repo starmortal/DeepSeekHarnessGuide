@@ -9,44 +9,44 @@ title: "Instalar, Escrever e Publicar Plugins"
 </div>
 
 <div class="start-grid">
-  <a class="start-card" href="/pt/part04/ch17">
-    <span class="sc-no">CH 17</span>
+  <a class="start-card" href="/pt/part04/ch18">
+    <span class="sc-no">CH 18</span>
     <span class="sc-title">Instalação de Plugins</span>
     <span class="sc-desc">dsh plugin + Plugin Market · ~12 min</span>
     <span class="sc-go">Começar a ler →</span>
   </a>
-  <a class="start-card" href="/pt/part04/ch18">
-    <span class="sc-no">CH 18</span>
+  <a class="start-card" href="/pt/part04/ch19">
+    <span class="sc-no">CH 19</span>
     <span class="sc-title">Seu Primeiro Plugin: hello-plugin</span>
     <span class="sc-desc">Plugin mínimo executável · ~15 min</span>
     <span class="sc-go">Começar a ler →</span>
   </a>
-  <a class="start-card" href="/pt/part04/ch19">
-    <span class="sc-no">CH 19</span>
+  <a class="start-card" href="/pt/part04/ch20">
+    <span class="sc-no">CH 20</span>
     <span class="sc-title">Três Formas de Plugin</span>
     <span class="sc-desc">serviço / loader / patch · ~12 min</span>
     <span class="sc-go">Começar a ler →</span>
   </a>
-  <a class="start-card" href="/pt/part04/ch20">
-    <span class="sc-no">CH 20</span>
+  <a class="start-card" href="/pt/part04/ch21">
+    <span class="sc-no">CH 21</span>
     <span class="sc-title">Plugin de Ferramenta: defineTool</span>
     <span class="sc-desc">Adicione nova capacidade ao Agent · ~12 min</span>
     <span class="sc-go">Começar a ler →</span>
   </a>
-  <a class="start-card" href="/pt/part04/ch21">
-    <span class="sc-no">CH 21</span>
+  <a class="start-card" href="/pt/part04/ch22">
+    <span class="sc-no">CH 22</span>
     <span class="sc-title">Hook Plugins e Interceptação</span>
     <span class="sc-desc">tools/pre-execute · ~10 min</span>
     <span class="sc-go">Começar a ler →</span>
   </a>
-  <a class="start-card" href="/pt/part04/ch22">
-    <span class="sc-no">CH 22</span>
+  <a class="start-card" href="/pt/part04/ch23">
+    <span class="sc-no">CH 23</span>
     <span class="sc-title">Plugins de UI</span>
     <span class="sc-desc">Página de configurações + listener de eventos · ~15 min</span>
     <span class="sc-go">Começar a ler →</span>
   </a>
-  <a class="start-card" href="/pt/part04/ch23">
-    <span class="sc-no">CH 23</span>
+  <a class="start-card" href="/pt/part04/ch24">
+    <span class="sc-no">CH 24</span>
     <span class="sc-title">Publicar e Distribuir</span>
     <span class="sc-desc">npm + GitHub Release · ~12 min</span>
     <span class="sc-go">Começar a ler →</span>

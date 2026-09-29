@@ -9,20 +9,20 @@ title: "시나리오 실습"
 </div>
 
 <div class="start-grid">
-  <a class="start-card" href="/ko/part05/ch24">
-    <span class="sc-no">CH 24</span>
+  <a class="start-card" href="/ko/part05/ch25">
+    <span class="sc-no">CH 25</span>
     <span class="sc-title">개인 사이트 / 랜딩 페이지</span>
     <span class="sc-desc">브루탈리즘 스타일 HTML · 약 10분</span>
     <span class="sc-go">읽기 시작 →</span>
   </a>
-  <a class="start-card" href="/ko/part05/ch25">
-    <span class="sc-no">CH 25</span>
+  <a class="start-card" href="/ko/part05/ch26">
+    <span class="sc-no">CH 26</span>
     <span class="sc-title">하나의 브리프에서 dsh를 거쳐 PPT까지</span>
     <span class="sc-desc">dashiai-ppt skill · 약 20분</span>
     <span class="sc-go">읽기 시작 →</span>
   </a>
-  <a class="start-card" href="/ko/part05/ch26">
-    <span class="sc-no">CH 26</span>
+  <a class="start-card" href="/ko/part05/ch27">
+    <span class="sc-no">CH 27</span>
     <span class="sc-title">dsh + Remotion:한 문장에서 영상까지</span>
     <span class="sc-desc">60초 소개 영상 · 약 40분</span>
     <span class="sc-go">읽기 시작 →</span>

@@ -9,38 +9,38 @@ title: "Agent を組み立てる"
 </div>
 
 <div class="start-grid">
-  <a class="start-card" href="/ja/part03/ch11">
-    <span class="sc-no">CH 11</span>
+  <a class="start-card" href="/ja/part03/ch12">
+    <span class="sc-no">CH 12</span>
     <span class="sc-title">ツールとサンドボックス</span>
     <span class="sc-desc">安全な実行 · 約 15 分</span>
     <span class="sc-go">読み始める →</span>
   </a>
-  <a class="start-card" href="/ja/part03/ch12">
-    <span class="sc-no">CH 12</span>
+  <a class="start-card" href="/ja/part03/ch13">
+    <span class="sc-no">CH 13</span>
     <span class="sc-title">MCP エコシステムへの接続</span>
     <span class="sc-desc">Firecrawl 実操作 · 約 20 分</span>
     <span class="sc-go">読み始める →</span>
   </a>
-  <a class="start-card" href="/ja/part03/ch13">
-    <span class="sc-no">CH 13</span>
+  <a class="start-card" href="/ja/part03/ch14">
+    <span class="sc-no">CH 14</span>
     <span class="sc-title">サブエージェントとマルチ Agent 编排</span>
     <span class="sc-desc">spawn / fork · 約 12 分</span>
     <span class="sc-go">読み始める →</span>
   </a>
-  <a class="start-card" href="/ja/part03/ch14">
-    <span class="sc-no">CH 14</span>
+  <a class="start-card" href="/ja/part03/ch15">
+    <span class="sc-no">CH 15</span>
     <span class="sc-title">Skill とワークフロー</span>
     <span class="sc-desc">再利用可能な能力 · 約 15 分</span>
     <span class="sc-go">読み始める →</span>
   </a>
-  <a class="start-card" href="/ja/part03/ch15">
-    <span class="sc-no">CH 15</span>
+  <a class="start-card" href="/ja/part03/ch16">
+    <span class="sc-no">CH 16</span>
     <span class="sc-title">定时任务とバックグラウンド実行</span>
     <span class="sc-desc">每日热点自動プッシュ · 約 15 分</span>
     <span class="sc-go">読み始める →</span>
   </a>
-  <a class="start-card" href="/ja/part03/ch16">
-    <span class="sc-no">CH 16</span>
+  <a class="start-card" href="/ja/part03/ch17">
+    <span class="sc-no">CH 17</span>
     <span class="sc-title">ローカルデプロイと Token 自由</span>
     <span class="sc-desc">LM Studio ローカルモデル · 約 18 分</span>
     <span class="sc-go">読み始める →</span>

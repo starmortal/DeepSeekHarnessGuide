@@ -9,20 +9,20 @@ title: "Producción y ecosistema"
 </div>
 
 <div class="start-grid">
-  <a class="start-card" href="/es/part06/ch27">
-    <span class="sc-no">CH 27</span>
+  <a class="start-card" href="/es/part06/ch28">
+    <span class="sc-no">CH 28</span>
     <span class="sc-title">Opciones de despliegue</span>
     <span class="sc-desc">Local / Servidor / Docker · ~15 min</span>
     <span class="sc-go">Empezar a leer →</span>
   </a>
-  <a class="start-card" href="/es/part06/ch28">
-    <span class="sc-no">CH 28</span>
+  <a class="start-card" href="/es/part06/ch29">
+    <span class="sc-no">CH 29</span>
     <span class="sc-title">Seguridad y cumplimiento</span>
     <span class="sc-desc">Permisos / Claves / Datos · ~12 min</span>
     <span class="sc-go">Empezar a leer →</span>
   </a>
-  <a class="start-card" href="/es/part06/ch29">
-    <span class="sc-no">CH 29</span>
+  <a class="start-card" href="/es/part06/ch30">
+    <span class="sc-no">CH 30</span>
     <span class="sc-title">Observabilidad y gestión de contexto</span>
     <span class="sc-desc">Trajectory / Tokens / Compresión · ~15 min</span>
     <span class="sc-go">Empezar a leer →</span>

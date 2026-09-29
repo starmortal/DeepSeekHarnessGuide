@@ -9,20 +9,20 @@ title: "本番運用とエコシステム"
 </div>
 
 <div class="start-grid">
-  <a class="start-card" href="/ja/part06/ch27">
-    <span class="sc-no">CH 27</span>
+  <a class="start-card" href="/ja/part06/ch28">
+    <span class="sc-no">CH 28</span>
     <span class="sc-title">デプロイ選択肢</span>
     <span class="sc-desc">ローカル / サーバー / Docker · 約 15 分</span>
     <span class="sc-go">読み始める →</span>
   </a>
-  <a class="start-card" href="/ja/part06/ch28">
-    <span class="sc-no">CH 28</span>
+  <a class="start-card" href="/ja/part06/ch29">
+    <span class="sc-no">CH 29</span>
     <span class="sc-title">セキュリティとコンプライアンス</span>
     <span class="sc-desc">権限 / キー / データ · 約 12 分</span>
     <span class="sc-go">読み始める →</span>
   </a>
-  <a class="start-card" href="/ja/part06/ch29">
-    <span class="sc-no">CH 29</span>
+  <a class="start-card" href="/ja/part06/ch30">
+    <span class="sc-no">CH 30</span>
     <span class="sc-title">可観測性とコンテキスト管理</span>
     <span class="sc-desc">軌跡 / Token / 圧縮 · 約 15 分</span>
     <span class="sc-go">読み始める →</span>

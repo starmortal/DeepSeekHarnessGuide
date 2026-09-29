@@ -5,7 +5,7 @@ title: "De 0 a 1: Colocando o dsh em execução"
 # PARTE 01 · De 0 a 1
 
 <div class="lead">
-  Recomendado para iniciantes. Instale o dsh, coloque-o em execução e conclua sua primeira conversa. Seis capítulos, da compreensão ao troubleshooting, constroem a base passo a passo.
+  Recomendado para iniciantes. Instale o dsh, coloque-o em execução e conclua sua primeira conversa. Sete capítulos, da compreensão ao troubleshooting, constroem a base passo a passo.
 </div>
 
 <div class="start-grid">
@@ -21,26 +21,32 @@ title: "De 0 a 1: Colocando o dsh em execução"
     <span class="sc-desc">Node.js + um comando · ~15 min</span>
     <span class="sc-go">Começar a ler →</span>
   </a>
-  <a class="start-card" href="/pt/part01/ch04">
+    <a class="start-card" href="/pt/part01/ch04">
     <span class="sc-no">CH 04</span>
+    <span class="sc-title">App de desktop oficial</span>
+    <span class="sc-desc">App independente, sem Node · ~13 min</span>
+    <span class="sc-go">Começar a ler →</span>
+  </a>
+<a class="start-card" href="/pt/part01/ch05">
+    <span class="sc-no">CH 05</span>
     <span class="sc-title">Conhecendo a Web UI</span>
     <span class="sc-desc">Layout + primeira conversa · ~12 min</span>
     <span class="sc-go">Começar a ler →</span>
   </a>
-  <a class="start-card" href="/pt/part01/ch05">
-    <span class="sc-no">CH 05</span>
+  <a class="start-card" href="/pt/part01/ch06">
+    <span class="sc-no">CH 06</span>
     <span class="sc-title">Linha de comando: headless</span>
     <span class="sc-desc">Automação sem UI · ~10 min</span>
     <span class="sc-go">Começar a ler →</span>
   </a>
-  <a class="start-card" href="/pt/part01/ch06">
-    <span class="sc-no">CH 06</span>
+  <a class="start-card" href="/pt/part01/ch07">
+    <span class="sc-no">CH 07</span>
     <span class="sc-title">Configurar modelo e esforço de raciocínio</span>
     <span class="sc-desc">DeepSeek + modelos de terceiros · ~12 min</span>
     <span class="sc-go">Começar a ler →</span>
   </a>
-  <a class="start-card" href="/pt/part01/ch07">
-    <span class="sc-no">CH 07</span>
+  <a class="start-card" href="/pt/part01/ch08">
+    <span class="sc-no">CH 08</span>
     <span class="sc-title">Chuleta de troubleshooting</span>
     <span class="sc-desc">Erros comuns + soluções · ~8 min</span>
     <span class="sc-go">Começar a ler →</span>

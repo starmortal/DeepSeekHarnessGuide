@@ -9,20 +9,20 @@ title: "シナリオ実操作"
 </div>
 
 <div class="start-grid">
-  <a class="start-card" href="/ja/part05/ch24">
-    <span class="sc-no">CH 24</span>
+  <a class="start-card" href="/ja/part05/ch25">
+    <span class="sc-no">CH 25</span>
     <span class="sc-title">個人サイト / ランディングページ</span>
     <span class="sc-desc">ブルータリスト風 HTML · 約 10 分</span>
     <span class="sc-go">読み始める →</span>
   </a>
-  <a class="start-card" href="/ja/part05/ch25">
-    <span class="sc-no">CH 25</span>
+  <a class="start-card" href="/ja/part05/ch26">
+    <span class="sc-no">CH 26</span>
     <span class="sc-title">ブリーフから PPT へ、dsh 経由</span>
     <span class="sc-desc">dashiai-ppt skill · 約 20 分</span>
     <span class="sc-go">読み始める →</span>
   </a>
-  <a class="start-card" href="/ja/part05/ch26">
-    <span class="sc-no">CH 26</span>
+  <a class="start-card" href="/ja/part05/ch27">
+    <span class="sc-no">CH 27</span>
     <span class="sc-title">dsh + Remotion:一文から動画へ</span>
     <span class="sc-desc">60 秒紹介動画 · 約 40 分</span>
     <span class="sc-go">読み始める →</span>

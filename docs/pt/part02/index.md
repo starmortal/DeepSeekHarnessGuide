@@ -9,20 +9,20 @@ title: "Entendendo o esqueleto: tudo é um plugin"
 </div>
 
 <div class="start-grid">
-  <a class="start-card" href="/pt/part02/ch08">
-    <span class="sc-no">CH 08</span>
+  <a class="start-card" href="/pt/part02/ch09">
+    <span class="sc-no">CH 09</span>
     <span class="sc-title">Modelo mental da árvore de plugins</span>
     <span class="sc-desc">Tudo é um plugin · ~15 min</span>
     <span class="sc-go">Começar a ler →</span>
   </a>
-  <a class="start-card" href="/pt/part02/ch09">
-    <span class="sc-no">CH 09</span>
+  <a class="start-card" href="/pt/part02/ch10">
+    <span class="sc-no">CH 10</span>
     <span class="sc-title">Subsistemas centrais e fluxo de mensagens</span>
     <span class="sc-desc">Do Enter até a resposta · ~12 min</span>
     <span class="sc-go">Começar a ler →</span>
   </a>
-  <a class="start-card" href="/pt/part02/ch10">
-    <span class="sc-no">CH 10</span>
+  <a class="start-card" href="/pt/part02/ch11">
+    <span class="sc-no">CH 11</span>
     <span class="sc-title">Log de sessão como fonte da verdade</span>
     <span class="sc-desc">Cada execução é rastreável · ~10 min</span>
     <span class="sc-go">Começar a ler →</span>

@@ -1,11 +1,11 @@
-﻿---
+---
 title: "From 0 to 1: Get dsh Running"
 ---
 
 # PART 01 · From 0 to 1
 
 <div class="lead">
-  Recommended for beginners. Install dsh, get it running, complete your first conversation. Six chapters, from understanding to troubleshooting, build the foundation step by step.
+  Recommended for beginners. Install dsh, get it running, complete your first conversation. Seven chapters, from understanding to troubleshooting, build the foundation step by step.
 </div>
 
 <div class="start-grid">
@@ -23,24 +23,30 @@ title: "From 0 to 1: Get dsh Running"
   </a>
   <a class="start-card" href="/en/part01/ch04">
     <span class="sc-no">CH 04</span>
-    <span class="sc-title">Meet the Web UI</span>
-    <span class="sc-desc">Layout + first conversation · ~12 min</span>
+    <span class="sc-title">Official Desktop App</span>
+    <span class="sc-desc">Standalone app, no Node · ~13 min</span>
     <span class="sc-go">Start reading →</span>
   </a>
   <a class="start-card" href="/en/part01/ch05">
     <span class="sc-no">CH 05</span>
-    <span class="sc-title">Command Line: headless</span>
-    <span class="sc-desc">No-UI automation · ~10 min</span>
+    <span class="sc-title">Meet the Web UI</span>
+    <span class="sc-desc">Layout + first conversation · ~12 min</span>
     <span class="sc-go">Start reading →</span>
   </a>
   <a class="start-card" href="/en/part01/ch06">
     <span class="sc-no">CH 06</span>
-    <span class="sc-title">Configure Model and Reasoning Effort</span>
-    <span class="sc-desc">DeepSeek + third-party models · ~12 min</span>
+    <span class="sc-title">Command Line: headless</span>
+    <span class="sc-desc">No-UI automation · ~10 min</span>
     <span class="sc-go">Start reading →</span>
   </a>
   <a class="start-card" href="/en/part01/ch07">
     <span class="sc-no">CH 07</span>
+    <span class="sc-title">Configure Model and Reasoning Effort</span>
+    <span class="sc-desc">DeepSeek + third-party models · ~12 min</span>
+    <span class="sc-go">Start reading →</span>
+  </a>
+  <a class="start-card" href="/en/part01/ch08">
+    <span class="sc-no">CH 08</span>
     <span class="sc-title">Troubleshooting Cheatsheet</span>
     <span class="sc-desc">Common errors + solutions · ~8 min</span>
     <span class="sc-go">Start reading →</span>

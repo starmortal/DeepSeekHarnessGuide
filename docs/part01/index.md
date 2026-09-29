@@ -5,7 +5,7 @@ title: 从 0 到 1：先把 dsh 跑起来
 # PART 01 · 从 0 到 1
 
 <div class="lead">
-  新手推荐。把 dsh 装好、跑起来，完成第一次对话。六章，从认识到排障，一步步把基础打牢。
+  新手推荐。把 dsh 装好、跑起来，完成第一次对话。七章，从认识到排障，一步步把基础打牢。
 </div>
 
 <div class="start-grid">
@@ -23,24 +23,30 @@ title: 从 0 到 1：先把 dsh 跑起来
   </a>
   <a class="start-card" href="/part01/ch04">
     <span class="sc-no">CH 04</span>
-    <span class="sc-title">认识 Web UI</span>
-    <span class="sc-desc">界面分区 + 第一次对话 · 约 12 分钟</span>
+    <span class="sc-title">官方桌面端应用</span>
+    <span class="sc-desc">独立 App，不装 Node · 约 12 分钟</span>
     <span class="sc-go">开始读 →</span>
   </a>
   <a class="start-card" href="/part01/ch05">
     <span class="sc-no">CH 05</span>
-    <span class="sc-title">命令行跑通：headless</span>
-    <span class="sc-desc">无界面自动化 · 约 10 分钟</span>
+    <span class="sc-title">认识 Web UI</span>
+    <span class="sc-desc">界面分区 + 第一次对话 · 约 12 分钟</span>
     <span class="sc-go">开始读 →</span>
   </a>
   <a class="start-card" href="/part01/ch06">
     <span class="sc-no">CH 06</span>
-    <span class="sc-title">配置模型与推理档位</span>
-    <span class="sc-desc">DeepSeek + 第三方模型 · 约 12 分钟</span>
+    <span class="sc-title">命令行跑通：headless</span>
+    <span class="sc-desc">无界面自动化 · 约 10 分钟</span>
     <span class="sc-go">开始读 →</span>
   </a>
   <a class="start-card" href="/part01/ch07">
     <span class="sc-no">CH 07</span>
+    <span class="sc-title">配置模型与推理档位</span>
+    <span class="sc-desc">DeepSeek + 第三方模型 · 约 12 分钟</span>
+    <span class="sc-go">开始读 →</span>
+  </a>
+  <a class="start-card" href="/part01/ch08">
+    <span class="sc-no">CH 08</span>
     <span class="sc-title">排障速查</span>
     <span class="sc-desc">常见报错 + 解决方案 · 约 8 分钟</span>
     <span class="sc-go">开始读 →</span>

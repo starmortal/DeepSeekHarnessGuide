@@ -16,7 +16,7 @@ DeepSeek Harness 蓝皮书：一个以真实任务为主线的 dsh（DeepSeek Ha
 ## 二、章节编号规则
 
 - `CH` = Chapter（章节）。所有章节文件统一命名 `chXX.md`（如 `part00/ch00.md`），`XX` 是两位序号，从 `00` 开始。
-- 编号分布：CH 00–01 → PART 00，CH 02–07 → PART 01，CH 08–10 → PART 02，CH 11–16 → PART 03，CH 17–23 → PART 04，CH 24–26 → PART 05，CH 27–29 → PART 06。
+- 编号分布：CH 00–01 → PART 00，CH 02–08 → PART 01，CH 09–11 → PART 02，CH 12–17 → PART 03，CH 18–24 → PART 04，CH 25–27 → PART 05，CH 28–30 → PART 06。
 - 从 0 开始延续"从 0 到 1"的叙事，且 `ch00`、`ch01`… 按字典序排序天然正确（URL 和侧边栏不乱序）。
 
 ---
